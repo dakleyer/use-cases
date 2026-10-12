@@ -150,3 +150,26 @@ Iván autoriza continuar con el recorrido UC-21→objetivos→ejercicios existen
 La ficha de esta propuesta aplicada, incluidos sus pares antes/después, se retira de la cola activa. Su texto completo queda en la [VNext predecesora](https://github.com/dakleyer/use-cases/blob/3856dfd100e3d124d6a873f198ae1e85a97626e0/contributions/when-controls-work-system-fails/README_VNext.md) y en custodia auténtica. Las auditorías y todas las demás propuestas de objetivos/matriz/snapshot se conservan; esas otras propuestas no se incorporaron por este cambio. Las fuentes congeladas y SHA256SUMS.txt conservan su edición anterior; no certifican esta nueva redacción de los dos lectores. No se regeneraron hashes científicos ni se declararon nuevas ejecuciones.
 
 El README y USE_CASE de la rama ya conectan caso, método y corpus arquitectónico. La Issue UC-21 sigue apuntando al envío congelado; su enlace de seguimiento requiere una decisión específica posterior. No se cambia la entrada externa, el snapshot o main use-cases por esta aplicación. Stage A/B/C, R0/R1/R2, criterios del caso, anexos y resultados permanecen iguales.
+
+
+## Siguiente paso: enlace desde la entrada pública UC-21
+
+La rama contiene ya el puente en [la edición aplicada](https://github.com/dakleyer/use-cases/blob/56eb0252c63cedc7aa578e7c3a5c897cc9669c5e/contributions/when-controls-work-system-fails/README.md). Para que lo encuentre quien llega a la [Issue UC-21](https://github.com/FG-TIDA/use-cases/issues/21), se propone añadir un párrafo inmediatamente después de sus tres enlaces iniciales. Los enlaces de envío a aec08fb5 permanecen idénticos; sólo se añade seguimiento. Fuente: cuerpo público leído con updated_at `2026-10-12T13:27:46Z`; antes literal único. Revalidar ese cuerpo inmediatamente antes de una futura incorporación; si cambia, conservar esta propuesta y añadir otra contra la fuente nueva.
+
+**Impacto esperado Alto / riesgo Bajo / esfuerzo Bajo / prioridad Primera.** Beneficio: acceso directo desde la entrada real al caso actualizado y al método, sin recorrer32comentarios. Riesgo: confundir envío y seguimiento o perder el pin; se conservan ambos con nombres y commits explícitos. Dependencia: los dos lectores aplicados en 56eb0252c63cedc7aa578e7c3a5c897cc9669c5e, ya verificados. Estado: propuesta para edición de la Issue, pendiente de autorización específica de Iván; no se publicó un mensaje o edición externa.
+
+**Texto antes — completo**
+
+```markdown
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+```
+
+**Texto después — propuesto completo**
+
+```markdown
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+
+**Research follow-up:** [UC-21 objectives, existing studies and the DDS reading route](https://github.com/dakleyer/use-cases/blob/56eb0252c63cedc7aa578e7c3a5c897cc9669c5e/contributions/when-controls-work-system-fails/README.md) · [DDS research method](https://github.com/dakleyer/structural-awareness-contributions/blob/a70f3cdf2e43f3c600009e1821392c83683c47c0/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The links above retain the submitted reading snapshot.
+```
+
+No se cambia título, sectores, requisitos, anexos, comentarios ni estado de la Issue por esta propuesta.
