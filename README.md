@@ -6,6 +6,8 @@ Use cases ground the Focus Group's work in concrete situations: who is acting,
 what they are doing, what fails today, and what would have to exist for it to
 work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
 
+
+
 ## Submissions
 
 | # | Title | Sector | Submitting organization | Primary theme | Submission |
@@ -20,6 +22,24 @@ work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
 | 13 | Mitigating Stochastic Semantic Risk via Deterministic Runtime Enforcement | Airline / travel | Independent | Runtime Enforcement (Control Plane) | [#13](https://github.com/FG-TIDA/use-cases/issues/13) |
 | 14 | Agent-team delivery of regulated medical-device compliance work — authority, verification and evidence semantics in production | Health / professional regulatory-compliance services | SynomosAI (LGD theory initiative); production reference: MedXpert | Continuous Trust and Attestation | [#14](https://github.com/FG-TIDA/use-cases/issues/14) |
 | 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+| 20 | Robots writing Specifications for Trust in Robots | Cross-sector / International IT pre-standardization and collaborative software engineering | The Integral Management Society (Iván Abril Palma) | Dynamic Identity | [#20](https://github.com/FG-TIDA/use-cases/issues/20) |
+| 21 | When the controls work but the system fails | Cross-sector / Enterprise operations and smart-city mobility | The Integral Management Society (Iván Abril Palma) | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |
+
+
+### Additional submission details
+
+**#20 — Contextual trust under recursive human–agent escalation**
+
+Examines whether human–agent collaboration, recursive delegation, and apparently valid human reviews provide sufficient evidence for trusting a specific contribution or decision. Addresses provenance, authority, independent review, and contextual trust under changing conditions.
+
+Submission: https://github.com/FG-TIDA/use-cases/issues/20
+
+**#21 — When the controls work but the system fails**
+
+Examines situations where locally valid controls and determinations do not necessarily justify a system-level decision. Six scenarios investigate evidence composition, authority, dependencies, contextual indeterminacy, and material changes in operating conditions. Includes comparative R0/R1/R2 experimental trajectories and test-based specification discovery.
+
+Submission: https://github.com/FG-TIDA/use-cases/issues/21
+
 
 ## Contributing
 
