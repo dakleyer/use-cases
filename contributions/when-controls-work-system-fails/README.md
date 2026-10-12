@@ -8,7 +8,7 @@
 
 </div>
 
-Six failure scenarios, three implementation walkthroughs, nine technology profiles and explicit hypotheses for review. This directory is a self-contained publication package. It contains the complete case-scope material; no historical archive or subsequent specification is required to read it.
+Six failure scenarios, three implementation walkthroughs, nine technology profiles and explicit hypotheses for review. The frozen submission at [commit aec08fb5](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) remains the self-contained reading snapshot. In the maintained main package, S3 is historical and S6 points to maintained Contributions sources; identify and pin those source versions before a new experiment.
 
 **6 scenarios · 3 implementation walkthroughs · 9 technology profiles · 37 acceptance gates**
 

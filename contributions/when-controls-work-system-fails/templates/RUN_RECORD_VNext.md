@@ -1,3 +1,5 @@
+> **Estado vigente — 12 octubre 2026.** Las tandas1–4 están incorporadas en main. Las tablas EO y nuevos campos opcionales de la propuesta inicial se conservaron como alternativa histórica: la matriz humana de cinco objetivos y la guía de Challenges ya publicadas cumplen esa orientación sin crear otra sección1.1 ni otro contrato de registro. No están en la cola pendiente. Las auditorías originales y sus enunciados de entonces permanecen identificados como historia.
+
 # VNext — UC-21 — Pre-run objective selection and outcome-to-objective trace in the execution record
 
 > **Única VNext de este documento lógico; auditoría y propuestas, NO modificación incorporada.** La fuente, el paquete v0.9.3, el commit enlazado por FG-TIDA y el manifest SHA256 permanecen sin modificaciones. Estado: **revisión delimitada a trazabilidad de objetivos experimentales; propuesta pendiente de decisión e incorporación**. Fecha: 12 October 2026.
@@ -50,7 +52,7 @@ Cada run card quedaría legible como una prueba de una pregunta concreta: cuál,
 - **Estado de las propuestas UC21-OBJ-AUD-006:** PREPARADAS PARA REVISIÓN; **decisión sobre el texto canónico PENDIENTE**. No se genera test, PR, aprobación institucional, contacto a fabricantes o publicación de hallazgos empíricos por preparar este expediente.
 - **Prueba futura que permitiría cerrar la revisión:** Verificar que case-only sigue permitido; que la pregunta se congela antes de la observación y no se reescribe; que HS/HC/HR no se infieran de métricas aisladas, con fallos e inconclusos conservados.
 
-## 6. Propuestas quirúrgicas — ANTES / DESPUÉS (no incorporadas)
+## 6. Propuestas originales EO — históricas, sustituidas por la navegación aprobada
 
 ### UC21-OBJ-AUD-006-P01 — Inserción localizada
 
@@ -170,3 +172,10 @@ Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en mai
 UC-21 ylas tandas1–3 se publicaron en main con el paquete completo. La ancestry verifica los commits aprobados; los52blobs del paquete sin cambios en esta promoción conservan identidad, incluidas fuentes/assets/binarios/fixtures ycuatroVNext no actualizadas aquí. Los dosVNext actualizados registran la decisión; mainraíz conserva su texto previo másentrada. Los informes que consuma el caso mantienen pregunta/version y evidencia propia; no se fabrican resultados paraHC/HR/HS por enlazar los13estudios ocalibraciones. La nueva tanda5 propone cambios sólo en propietarios Contributions, ninguno en fuentesUC-21.
 
 Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
+
+
+## Conciliación de propuestas anteriores — 12 octubre 2026
+
+Las propuestas EO se leen con la integración efectiva de USE_CASE§1.1 y README: cinco preguntas científicas, HC/HR/HS y las condiciones individualesH1–H6, R1 corregida antes deR2 y ambos resultadosS4. La tanda3 examinó el formulario completo y decidió que no hacía falta imponer EO ni una nueva ficha. Es la alternativa vigente que se publicó; las tablas/formulario iniciales quedan superados y no se aplican por duplicado. El objetivo y la conclusión siguen documentándose con el contrato existente de EvidenceE.6. Las tandas de navegación no cierran el ciclo científico del corpus.
+
+Contributions incorpora la tanda5 en `9fb9421711521decde6843b04914a143a1f04c35` y los26cambios anteriores en `00ea3174c10a7e7cad84905d5642aa74eba35b18`, incluyendo sucesores que conservan Requirements,UC-EA-03 ychecker congelados. Las VNext propietarias registran los cambios y retiran sus fichas aplicadas.

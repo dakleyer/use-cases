@@ -1,3 +1,5 @@
+> **Estado vigente — 12 octubre 2026.** Las tandas1–4 están incorporadas en main. Las tablas EO y nuevos campos opcionales de la propuesta inicial se conservaron como alternativa histórica: la matriz humana de cinco objetivos y la guía de Challenges ya publicadas cumplen esa orientación sin crear otra sección1.1 ni otro contrato de registro. No están en la cola pendiente. Las auditorías originales y sus enunciados de entonces permanecen identificados como historia.
+
 # VNext — UC-21 — Annex H claim selection consumes case objectives without redefining HC, HS or H1–H6
 
 > **Única VNext de este documento lógico; auditoría y propuestas, NO modificación incorporada.** La fuente, el paquete v0.9.3, el commit enlazado por FG-TIDA y el manifest SHA256 permanecen sin modificaciones. Estado: **revisión delimitada a trazabilidad de objetivos experimentales; propuesta pendiente de decisión e incorporación**. Fecha: 12 October 2026.
@@ -48,9 +50,9 @@ Quien revise el anexo puede empezar por el objetivo de UC-21 y localizar qué af
 
 - **Registro de la instrucción de Iván:** propuestas de objetivos/criterios en los VNext solamente, antes de cualquier cambio de corpus; no autorización para reescribir el caso ya enlazado por FG-TIDA.
 - **Estado de las propuestas UC21-OBJ-AUD-004:** PREPARADAS PARA REVISIÓN; **decisión sobre el texto canónico PENDIENTE**. No se genera test, PR, aprobación institucional, contacto a fabricantes o publicación de hallazgos empíricos por preparar este expediente.
-- **Prueba futura que permitiría cerrar la revisión:** Confirmar identidad H1–H6 con requisitos congelados; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
+- **Prueba futura que permitiría cerrar la revisión:** Confirmar H1–H6 contra sus enunciados de hipótesis fuente; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
 
-## 6. Propuestas quirúrgicas — ANTES / DESPUÉS (no incorporadas)
+## 6. Propuestas originales EO — históricas, sustituidas por la navegación aprobada
 
 ### UC21-OBJ-AUD-004-P01 — Inserción localizada
 
@@ -82,7 +84,7 @@ The separate H1–H6 statements remain available as explicitly selected *individ
 
 **Por qué:** Annex H está sólidamente organizado por HC/H1–H6/HS y §13 exige escoger claim aparte de R0/R1/R2. Falta una entrada simétrica desde el propósito científico del experimento; por eso varios lectores podrían tomar H1–H6 como seis objetivos emparejados con S1–S6, o usar un PASS como respuesta suficiente para HC/HS.
 
-**Verificaciones antes de adoptar:** Confirmar identidad H1–H6 con requisitos congelados; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
+**Verificaciones antes de adoptar:** Confirmar H1–H6 contra sus enunciados de hipótesis fuente; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
 
 **Cierre de estado:** propuestas únicamente. Las seis VNext constituyen una auditoría cruzada delimitada; ninguna implica fuente cambiada, resultado demostrado ni adopción. 
 
@@ -101,34 +103,7 @@ La propia auditoría dice “requisitos congelados” para H1–H6. Son hipótes
 
 ### Precisión mínima de instrucciones de revisión
 
-**Dos menciones de esta VNext, §5 y verificación P01 de §6, como un cambio conjunto. Impacto Medio; riesgo Bajo; esfuerzo Bajo.** Viejos únicos por contexto; no enmienda de H1–H6.
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-- **Prueba futura que permitiría cerrar la revisión:** Confirmar identidad H1–H6 con requisitos congelados; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- **Prueba futura que permitiría cerrar la revisión:** Confirmar H1–H6 contra sus enunciados de hipótesis fuente; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
-~~~~
-
-**Texto antes — viejo literal completo**
-
-~~~~markdown
-**Verificaciones antes de adoptar:** Confirmar identidad H1–H6 con requisitos congelados; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-**Verificaciones antes de adoptar:** Confirmar H1–H6 contra sus enunciados de hipótesis fuente; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
-~~~~
-
-**Condición:** si Iván elige la precisión, mantener ambas menciones concordantes y los antecedentes históricos. Rectifica categoría de la instrucción, no refutación, ejecución o freeze. [Registro](../templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) distingue objetivo de claim. Todas las propuestas/discusiones anteriores permanecen; ninguna se incorpora aquí.
-
+**Aplicada en las dos instrucciones de esta VNext.** H1–H6 se cotejan como hipótesis fuente, no como requisitos congelados. El anexo científico no requiere una enmienda por esta precisión de auditoría. Par anterior en Git `f2e486c353c931525f92db4b40067e282692be8e`.
 
 ## Tanda 3 — objetivos, Challenges y escenarios de evaluación · 12 octubre 2026
 
@@ -149,3 +124,10 @@ Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/stru
 Iván autoriza continuar después de la entrega de las cuatro propuestas de la tanda3. Se incorporan exactamente sus adiciones a baseline README (sucesor00H), README UC-21 (seis Challenges), DDSIndex (elección del ejercicio) y extensions README (preguntas de trece estudios). Todos los bytes previos de esas cuatro fuentes permanecen íntegros, con sus enlaces. No se modifica otro pasaje ni el PDF.
 
 Las cuatro fichas incorporadas salen de la cola activa; su antes/después completo está en la [preparación publicada](https://github.com/dakleyer/use-cases/blob/1de940f00906c4cea085bf0c4f187e17d51e3a7c/contributions/when-controls-work-system-fails/annexes/HYPOTHESES_VNext.md). Auditorías y decisiones anteriores se conservan. Cero archivos nuevos, movidos, renombrados o eliminados y ninguna VNext nueva. Los estudios conservan registros, inputs, resultados, código, freezes y manifiestos. Continúa la tanda4: método, instrumentos, comparadores y oráculo/harness, con propuestas nuevas pendientes del GO correspondiente.
+
+
+## Conciliación de propuestas anteriores — 12 octubre 2026
+
+Las propuestas EO se leen con la integración efectiva de USE_CASE§1.1 y README: cinco preguntas científicas, HC/HR/HS y las condiciones individualesH1–H6, R1 corregida antes deR2 y ambos resultadosS4. La tanda3 examinó el formulario completo y decidió que no hacía falta imponer EO ni una nueva ficha. Es la alternativa vigente que se publicó; las tablas/formulario iniciales quedan superados y no se aplican por duplicado. El objetivo y la conclusión siguen documentándose con el contrato existente de EvidenceE.6. Las tandas de navegación no cierran el ciclo científico del corpus.
+
+Contributions incorpora la tanda5 en `9fb9421711521decde6843b04914a143a1f04c35` y los26cambios anteriores en `00ea3174c10a7e7cad84905d5642aa74eba35b18`, incluyendo sucesores que conservan Requirements,UC-EA-03 ychecker congelados. Las VNext propietarias registran los cambios y retiran sus fichas aplicadas.

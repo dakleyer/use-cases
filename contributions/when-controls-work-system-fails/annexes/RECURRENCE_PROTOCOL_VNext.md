@@ -1,3 +1,5 @@
+> **Estado vigente — 12 octubre 2026.** Las tandas1–4 están incorporadas en main. Las tablas EO y nuevos campos opcionales de la propuesta inicial se conservaron como alternativa histórica: la matriz humana de cinco objetivos y la guía de Challenges ya publicadas cumplen esa orientación sin crear otra sección1.1 ni otro contrato de registro. No están en la cola pendiente. Las auditorías originales y sus enunciados de entonces permanecen identificados como historia.
+
 # VNext — UC-21 — Annex R HR recurrence has its own experimental objective and guarded premise
 
 > **Única VNext de este documento lógico; auditoría y propuestas, NO modificación incorporada.** La fuente, el paquete v0.9.3, el commit enlazado por FG-TIDA y el manifest SHA256 permanecen sin modificaciones. Estado: **revisión delimitada a trazabilidad de objetivos experimentales; propuesta pendiente de decisión e incorporación**. Fecha: 12 October 2026.
@@ -50,7 +52,7 @@ Evitar que fabricante o evaluador confunda la falsación de una intervención pr
 - **Estado de las propuestas UC21-OBJ-AUD-005:** PREPARADAS PARA REVISIÓN; **decisión sobre el texto canónico PENDIENTE**. No se genera test, PR, aprobación institucional, contacto a fabricantes o publicación de hallazgos empíricos por preparar este expediente.
 - **Prueba futura que permitiría cerrar la revisión:** Mantener HR como pretensión acotada al dominio de configuración y cambio declarado; documentar qué resultados muestran corrección, recurrencia, ausencia observada o alcance insuficiente.
 
-## 6. Propuestas quirúrgicas — ANTES / DESPUÉS (no incorporadas)
+## 6. Propuestas originales EO — históricas, sustituidas por la navegación aprobada
 
 ### UC21-OBJ-AUD-005-P01 — Inserción localizada
 
@@ -90,3 +92,10 @@ S4 conserva dos resultados. HR de una rama no afirma ambos ni HC/HS. Claude/Stri
 **P01:** impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; Siguiente, después de matriz. El original ya explica R1, dominio y negación; el párrafo puede abreviarse/rechazarse sin un defecto científico. Viejo único, fórmula HR intacta.
 
 **Aceptación/dependencias:** [caso](../USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026), H y [registro](../templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) separan claim/route/outcome con escenario versionado; no pointer S6 mutable como fixture congelado. Ejecución/modificación/aceptación no se derivan de esta publicación.
+
+
+## Conciliación de propuestas anteriores — 12 octubre 2026
+
+Las propuestas EO se leen con la integración efectiva de USE_CASE§1.1 y README: cinco preguntas científicas, HC/HR/HS y las condiciones individualesH1–H6, R1 corregida antes deR2 y ambos resultadosS4. La tanda3 examinó el formulario completo y decidió que no hacía falta imponer EO ni una nueva ficha. Es la alternativa vigente que se publicó; las tablas/formulario iniciales quedan superados y no se aplican por duplicado. El objetivo y la conclusión siguen documentándose con el contrato existente de EvidenceE.6. Las tandas de navegación no cierran el ciclo científico del corpus.
+
+Contributions incorpora la tanda5 en `9fb9421711521decde6843b04914a143a1f04c35` y los26cambios anteriores en `00ea3174c10a7e7cad84905d5642aa74eba35b18`, incluyendo sucesores que conservan Requirements,UC-EA-03 ychecker congelados. Las VNext propietarias registran los cambios y retiran sus fichas aplicadas.

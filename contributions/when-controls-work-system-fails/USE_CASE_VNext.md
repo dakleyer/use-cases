@@ -1,3 +1,5 @@
+> **Estado vigente — 12 octubre 2026.** Las tandas1–4 están incorporadas en main. Las tablas EO y nuevos campos opcionales de la propuesta inicial se conservaron como alternativa histórica: la matriz humana de cinco objetivos y la guía de Challenges ya publicadas cumplen esa orientación sin crear otra sección1.1 ni otro contrato de registro. No están en la cola pendiente. Las auditorías originales y sus enunciados de entonces permanecen identificados como historia.
+
 # VNext — UC-21 — Primary experimental-objective matrix — scope, hypothesis, discriminating evidence and failure
 
 > **Única VNext de este documento lógico; auditoría y propuestas, NO modificación incorporada.** La fuente, el paquete v0.9.3, el commit enlazado por FG-TIDA y el manifest SHA256 permanecen sin modificaciones. Estado: **revisión delimitada a trazabilidad de objetivos experimentales; propuesta pendiente de decisión e incorporación**. Fecha: 12 October 2026.
@@ -50,7 +52,7 @@ A un ingeniero de Microsoft/Anthropic/AWS debe resultarle fácil señalar EO-02 
 - **Estado de las propuestas UC21-OBJ-AUD-002:** PREPARADAS PARA REVISIÓN; **decisión sobre el texto canónico PENDIENTE**. No se genera test, PR, aprobación institucional, contacto a fabricantes o publicación de hallazgos empíricos por preparar este expediente.
 - **Prueba futura que permitiría cerrar la revisión:** Revisar que EO-04 sea una afirmación existencial acotada por familia, que HR no se infiera de un R1 fallido, que S4 conserve sus dos resultados, que H1–H6 no se asignen uno a uno a seis escenarios y que HS no equivalga a minimalidad universal.
 
-## 6. Propuestas quirúrgicas — ANTES / DESPUÉS (no incorporadas)
+## 6. Propuestas originales EO — históricas, sustituidas por la navegación aprobada
 
 ### UC21-OBJ-AUD-002-P01 — Inserción localizada
 
@@ -184,3 +186,10 @@ Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/stru
 Iván autoriza continuar después de la entrega de las cuatro propuestas de la tanda3. Se incorporan exactamente sus adiciones a baseline README (sucesor00H), README UC-21 (seis Challenges), DDSIndex (elección del ejercicio) y extensions README (preguntas de trece estudios). Todos los bytes previos de esas cuatro fuentes permanecen íntegros, con sus enlaces. No se modifica otro pasaje ni el PDF.
 
 Las cuatro fichas incorporadas salen de la cola activa; su antes/después completo está en la [preparación publicada](https://github.com/dakleyer/use-cases/blob/1de940f00906c4cea085bf0c4f187e17d51e3a7c/contributions/when-controls-work-system-fails/USE_CASE_VNext.md). Auditorías y decisiones anteriores se conservan. Cero archivos nuevos, movidos, renombrados o eliminados y ninguna VNext nueva. Los estudios conservan registros, inputs, resultados, código, freezes y manifiestos. Continúa la tanda4: método, instrumentos, comparadores y oráculo/harness, con propuestas nuevas pendientes del GO correspondiente.
+
+
+## Conciliación de propuestas anteriores — 12 octubre 2026
+
+Las propuestas EO se leen con la integración efectiva de USE_CASE§1.1 y README: cinco preguntas científicas, HC/HR/HS y las condiciones individualesH1–H6, R1 corregida antes deR2 y ambos resultadosS4. La tanda3 examinó el formulario completo y decidió que no hacía falta imponer EO ni una nueva ficha. Es la alternativa vigente que se publicó; las tablas/formulario iniciales quedan superados y no se aplican por duplicado. El objetivo y la conclusión siguen documentándose con el contrato existente de EvidenceE.6. Las tandas de navegación no cierran el ciclo científico del corpus.
+
+Contributions incorpora la tanda5 en `9fb9421711521decde6843b04914a143a1f04c35` y los26cambios anteriores en `00ea3174c10a7e7cad84905d5642aa74eba35b18`, incluyendo sucesores que conservan Requirements,UC-EA-03 ychecker congelados. Las VNext propietarias registran los cambios y retiran sus fichas aplicadas.
