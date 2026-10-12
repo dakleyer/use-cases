@@ -364,3 +364,29 @@ For current reading, open the [maintained package on main](https://github.com/da
 ````
 
 **Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
+
+
+### Adición de conservación autorizada — UC-21: archivos de trabajo adicionales al final
+
+Iván autoriza completar la migración conservando contenidos, enlaces y materiales fuera de la ruta central. Fuente `contributions/when-controls-work-system-fails/README.md`, commit `d7a3b1c1f7e05f0097e1c27885cfc0a3508e8130`. Se añade sólo el bloque mostrado al final; el viejo contexto y todos sus bytes se conservan. La hoja adicional no crea otro nivel de navegación canónica.
+
+**Texto antes — contexto final literal completo**
+
+````markdown
+For source reading, S3's retained submission redirects to maintained 00G; S6 is already an adapter to 00J. The 00H link above selects the v0.5 working successor, including both preservation and authority outcomes. Original package and frozen-study editions keep the versions they cite. The nine technology profiles describe twenty-seven comparison positions; an executed study is identified by its own registration and results.
+````
+
+**Texto después — contexto conservado y adición completa**
+
+````markdown
+For source reading, S3's retained submission redirects to maintained 00G; S6 is already an adapter to 00J. The 00H link above selects the v0.5 working successor, including both preservation and authority outcomes. Original package and frozen-study editions keep the versions they cite. The nine technology profiles describe twenty-seven comparison positions; an executed study is identified by its own registration and results.
+
+
+## Additional working files and preserved material
+
+The [complete current package](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails) includes the original figures, JSON fixtures, templates and review workspaces. The [submitted package](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) retains its original reading edition and integrity snapshot.
+
+For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.
+
+````
+
