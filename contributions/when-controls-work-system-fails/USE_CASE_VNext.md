@@ -193,3 +193,18 @@ Las cuatro fichas incorporadas salen de la cola activa; su antes/después comple
 Las propuestas EO se leen con la integración efectiva de USE_CASE§1.1 y README: cinco preguntas científicas, HC/HR/HS y las condiciones individualesH1–H6, R1 corregida antes deR2 y ambos resultadosS4. La tanda3 examinó el formulario completo y decidió que no hacía falta imponer EO ni una nueva ficha. Es la alternativa vigente que se publicó; las tablas/formulario iniciales quedan superados y no se aplican por duplicado. El objetivo y la conclusión siguen documentándose con el contrato existente de EvidenceE.6. Las tandas de navegación no cierran el ciclo científico del corpus.
 
 Contributions incorpora la tanda5 en `9fb9421711521decde6843b04914a143a1f04c35` y los26cambios anteriores en `00ea3174c10a7e7cad84905d5642aa74eba35b18`, incluyendo sucesores que conservan Requirements,UC-EA-03 ychecker congelados. Las VNext propietarias registran los cambios y retiran sus fichas aplicadas.
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Conciliación del recorrido de las cinco preguntas
+
+Se cotejó USE_CASE§1.1 con README, los claims de Annex H/R y el formulario EvidenceE.6. Las preguntas conservan decisión y continuidad, eficacia convencional, recurrencia tras R1 corregida, causalidad HC y respuesta común HS. El I2-complete externo de S5 no equivale a AWS-I2/R2. Una propuesta S4 no acredita campaña ejecutada o HC sobre ambos outcomes. Los trece estudios Simplified A mantienen la evidencia de su propia pregunta.
+
+El feedback nuevo UC4↔UC21 puede informar controles candidatos sin alterar esos claims ni crear una exigencia normativa. USE_CASE no necesita duplicar su matriz. Esta VNext recibe el cotejo; los pares78/82 están en README VNext y77/81 en DDS. La Issue consultada contiene 33 comentarios y conserva el envío congelado en su cuerpo.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).

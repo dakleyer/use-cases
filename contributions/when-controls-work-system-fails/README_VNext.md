@@ -290,3 +290,77 @@ Iván autoriza aplicar las propuestas pendientes. Se sustituye sólo el párrafo
 Las propuestas EO se leen con la integración efectiva de USE_CASE§1.1 y README: cinco preguntas científicas, HC/HR/HS y las condiciones individualesH1–H6, R1 corregida antes deR2 y ambos resultadosS4. La tanda3 examinó el formulario completo y decidió que no hacía falta imponer EO ni una nueva ficha. Es la alternativa vigente que se publicó; las tablas/formulario iniciales quedan superados y no se aplican por duplicado. El objetivo y la conclusión siguen documentándose con el contrato existente de EvidenceE.6. Las tandas de navegación no cierran el ciclo científico del corpus.
 
 Contributions incorpora la tanda5 en `9fb9421711521decde6843b04914a143a1f04c35` y los26cambios anteriores en `00ea3174c10a7e7cad84905d5642aa74eba35b18`, incluyendo sucesores que conservan Requirements,UC-EA-03 ychecker congelados. Las VNext propietarias registran los cambios y retiran sus fichas aplicadas.
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Entrada mantenida, envío y propuestas de ensayo
+
+Se leyeron README, USE_CASE y el índice de anexos del envío `aec08fb5` y se contrastaron con main. El envío conserva sus veinte anexos y edición; las ayudas DDS se añadieron después. Los comentarios S5/S4 abren DDS en `2c7f545`, que permanece como referencia histórica. Main contiene 54 archivos y 32 Markdown del paquete, con objetivos, seis Challenges, X1–X7, R0/R1/R2 y fuentes enlazadas. El inventario rotulado “maintained package” abre el antiguo corte `aafc9a`;78 lo identifica como snapshot y añade la entrada vigente, conservando rutas y SHA256SUMS.
+
+La [propuesta UC-4 ↔ UC-21](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997) distingue la determinación original de su aplicabilidad posterior. El cambio82 la enlaza desde la tabla que ya separa S5 existente, 00I companion y S4 propuesto. Steps A–F no son etapas DDS. El éxito convencional y los límites de observación siguen siendo resultados informativos. USE_CASE§1.1 conserva el mapa de objetivos; no se introducen EO obligatorios ni otra sección1.1. DDS y el puente registran la relación por separado.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
+
+### Cambio 78 — Distinguir el inventario histórico de la lectura actual
+
+**Fuente:** `contributions/when-controls-work-system-fails/README.md`, repositorio `dakleyer/use-cases`, commit `e9efbda5e0cc002793a4df82484a6b3f47a79976`, blob `8e5a0d7be914dd514c212eb4ceb294eb7e1de7bf`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Bajo. **Prioridad:** Primera.
+
+**Beneficio concreto:** El paquete de54archivos permanece accesible en su corte y main se identifica como entrada vigente.
+
+**Riesgo concreto:** Confundir la edición actual con el manifest firmado/congelado; mantener SHA256SUMS y el enlace aec 08fb5 sin cambios.
+
+**Lectura/validación/mantenimiento:** Un párrafo y una guía corta; confirmar 54 rutas actuales y el fragmento de objetivos.
+
+**Dependencias y orden:** Sin dependencia de incorporación nueva; conservar snapshot y contextos existentes. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
+
+#### Pasaje 1 de 1
+
+**Texto antes — viejo literal completo**
+
+````markdown
+The [maintained case package](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+The [package inventory snapshot](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.
+
+For current reading, open the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails) and its [case objectives](USE_CASE.md#11-research-objectives-and-evidence). The inventory above records its cited earlier commit; main contains the subsequently approved reader updates. The submitted snapshot and each study's frozen inputs retain their own version.
+````
+
+**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
+
+### Cambio 82 — Enlazar el nuevo ciclo bidireccional propuesto UC4–UC21
+
+**Fuente:** `contributions/when-controls-work-system-fails/README.md`, repositorio `dakleyer/use-cases`, commit `e9efbda5e0cc002793a4df82484a6b3f47a79976`, blob `8e5a0d7be914dd514c212eb4ceb294eb7e1de7bf`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Bajo. **Prioridad:** Primera.
+
+**Beneficio concreto:** La discusión pública reciente queda dentro de la ruta del caso; distingue resultado original, aplicabilidad posterior y retorno a un control candidato.
+
+**Riesgo concreto:** Presentar la propuesta como un experimento ya registrado o adopción deEA/CDA; conservar la naturaleza propuesta y los límites observacionales.
+
+**Lectura/validación/mantenimiento:** Una fila de lectura; revisar el comentario completo, fuente/fecha y contratos de ambos receptores.
+
+**Dependencias y orden:** Cambios 78, 81. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
+
+#### Pasaje 1 de 1
+
+**Texto antes — viejo literal completo**
+
+````markdown
+| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |
+| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997). A source determination and its conditions inform the receiving-decision question; a bounded finding may return as a candidate control for a separately registered test. Its Steps A–F describe the proposed feedback sequence, independently of DDS Stages A/B/C. Existing control success and unresolved observation limits remain valid findings. |
+````
+
+**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
