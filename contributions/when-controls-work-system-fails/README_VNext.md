@@ -236,3 +236,10 @@ The [maintained case package](https://github.com/dakleyer/use-cases/tree/aafc9a4
 
 For the submitted edition, use the [original package and integrity snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails). SHA256SUMS.txt retains its original snapshot meaning; the later reader additions are identified by Git commits. A DDS study or external S5 exercise records the version it consumed and retains its own results. The [existing case review](README_VNext.md) connects this inventory to the incremental navigation plan.
 ````
+
+
+## Estado publicado de la tanda 2 — adiciones pendientes de incorporación
+
+La auditoría de inventario y los pares literales están publicados el12octubre2026. La comprobación abarca los2.277blobs del corte, rutas Markdown y las dependencias especificadas en esta entrada. Las tres ayudas de navegación están preparadas; todavía no se han añadido a los lectores originales.
+
+La revisión automática rechazó el commit de incorporación porque interpreta la restricción anterior como permiso exclusivo para VNext. Iván aclaró en esta conversación que conservar significa no borrar información; se solicitó confirmar por nombre las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Mientras llega esa decisión, los originales mantienen sus blobs y los pares siguen pendientes, sin marcarse aplicados. El PDF y la entrada externa quedan para el final. La revisión documental y las siguientes lecturas pueden continuar.
