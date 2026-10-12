@@ -281,80 +281,6 @@ Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprob
 Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.
 
 
-### Publicación del paquete completo en main y entrada del repositorio
-
-Instrucción concreta de Iván: «quiero todas aplicadas a main». El main inicial d6d50411f315a9a91156b015c6155b05d17920ec no contenía UC-21; se añaden sus54archivos previamente publicados, reutilizando los mismos blobs para binarios y fuentes. No se importa la modificación del README raíz de la rama. Se conserva íntegro el README raíz de main y se añade únicamente la entrada siguiente. Impacto Alto / riesgo Bajo / esfuerzo Medio; autorizada para incorporar ahora. Las propuestas nuevas de tanda5 siguen fuera de los canónicos hastaGO.
-
-**Texto antes — README raíz completo**
-
-````markdown
-# FG-TIDA Use Cases
-
-This repository holds use case submissions for FG-TIDA.
-
-Use cases ground the Focus Group's work in concrete situations: who is acting,
-what they are doing, what fails today, and what would have to exist for it to
-work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
-
-## Submissions
-
-| # | Title | Sector | Submitting organization | Primary theme | Submission |
-|---|-------|--------|-------------------------|---------------|------------|
-| 4 | Federated ecosystem defense across independently governed organizations | Cross-sector | Individual expert contribution (FG-TIDA participant) | Runtime Enforcement (Control Plane) | [#4](https://github.com/FG-TIDA/use-cases/issues/4) |
-| 5 | Silent model substitution by an intermediary | Cross-sector | Himalogic Software Pvt. Ltd. (Lalitpur, Nepal) | Continuous Trust and Attestation | [#5](https://github.com/FG-TIDA/use-cases/issues/5) |
-| 6 | Same agent, changed context: authority applicability before continuation or return to operation | Enterprise software and knowledge work | Individual expert contribution (Forkit AI) | Delegation | [#6](https://github.com/FG-TIDA/use-cases/issues/6) |
-| 7 | Maintaining agent identity and action-time state across changing executions | Customer-support operations / cross-sector | Forkit AI | Dynamic Identity | [#7](https://github.com/FG-TIDA/use-cases/issues/7) |
-| 9 | A national payment rail defers agentic deployment until authority can be traced to a principal | Financial services / payments | World Privacy Forum | Delegation | [#9](https://github.com/FG-TIDA/use-cases/issues/9) |
-| 10 | Automated molecular design on a self-expanding multi-agentic coordination layer | Critical infrastructure / scientific R&D | World Privacy Forum | Delegation | [#10](https://github.com/FG-TIDA/use-cases/issues/10) |
-| 12 | Same action, different lineage: distinguishing representation-to-action descent from independent reconstruction | Enterprise procurement and internal decision systems | Institute for Consciousness & Attention Mechanics (ICAM) | Continuous Trust and Attestation | [#12](https://github.com/FG-TIDA/use-cases/issues/12) |
-| 13 | Mitigating Stochastic Semantic Risk via Deterministic Runtime Enforcement | Airline / travel | Independent | Runtime Enforcement (Control Plane) | [#13](https://github.com/FG-TIDA/use-cases/issues/13) |
-| 14 | Agent-team delivery of regulated medical-device compliance work — authority, verification and evidence semantics in production | Health / professional regulatory-compliance services | SynomosAI (LGD theory initiative); production reference: MedXpert | Continuous Trust and Attestation | [#14](https://github.com/FG-TIDA/use-cases/issues/14) |
-| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
-
-## Contributing
-
-- Create a [new issue](https://github.com/FG-TIDA/use-cases/issues/new/choose) and complete every required field.
-- Once an issue is opened, add a row to the index table above with a link to it.
-````
-
-**Texto después — README raíz íntegro y entrada añadida**
-
-````markdown
-# FG-TIDA Use Cases
-
-This repository holds use case submissions for FG-TIDA.
-
-Use cases ground the Focus Group's work in concrete situations: who is acting,
-what they are doing, what fails today, and what would have to exist for it to
-work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
-
-## Submissions
-
-| # | Title | Sector | Submitting organization | Primary theme | Submission |
-|---|-------|--------|-------------------------|---------------|------------|
-| 4 | Federated ecosystem defense across independently governed organizations | Cross-sector | Individual expert contribution (FG-TIDA participant) | Runtime Enforcement (Control Plane) | [#4](https://github.com/FG-TIDA/use-cases/issues/4) |
-| 5 | Silent model substitution by an intermediary | Cross-sector | Himalogic Software Pvt. Ltd. (Lalitpur, Nepal) | Continuous Trust and Attestation | [#5](https://github.com/FG-TIDA/use-cases/issues/5) |
-| 6 | Same agent, changed context: authority applicability before continuation or return to operation | Enterprise software and knowledge work | Individual expert contribution (Forkit AI) | Delegation | [#6](https://github.com/FG-TIDA/use-cases/issues/6) |
-| 7 | Maintaining agent identity and action-time state across changing executions | Customer-support operations / cross-sector | Forkit AI | Dynamic Identity | [#7](https://github.com/FG-TIDA/use-cases/issues/7) |
-| 9 | A national payment rail defers agentic deployment until authority can be traced to a principal | Financial services / payments | World Privacy Forum | Delegation | [#9](https://github.com/FG-TIDA/use-cases/issues/9) |
-| 10 | Automated molecular design on a self-expanding multi-agentic coordination layer | Critical infrastructure / scientific R&D | World Privacy Forum | Delegation | [#10](https://github.com/FG-TIDA/use-cases/issues/10) |
-| 12 | Same action, different lineage: distinguishing representation-to-action descent from independent reconstruction | Enterprise procurement and internal decision systems | Institute for Consciousness & Attention Mechanics (ICAM) | Continuous Trust and Attestation | [#12](https://github.com/FG-TIDA/use-cases/issues/12) |
-| 13 | Mitigating Stochastic Semantic Risk via Deterministic Runtime Enforcement | Airline / travel | Independent | Runtime Enforcement (Control Plane) | [#13](https://github.com/FG-TIDA/use-cases/issues/13) |
-| 14 | Agent-team delivery of regulated medical-device compliance work — authority, verification and evidence semantics in production | Health / professional regulatory-compliance services | SynomosAI (LGD theory initiative); production reference: MedXpert | Continuous Trust and Attestation | [#14](https://github.com/FG-TIDA/use-cases/issues/14) |
-| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
-
-## Contributing
-
-- Create a [new issue](https://github.com/FG-TIDA/use-cases/issues/new/choose) and complete every required field.
-- Once an issue is opened, add a row to the index table above with a link to it.
-
-
-## UC-21 — When the controls work but the system fails
-
-[Read the complete UC-21 package](./contributions/when-controls-work-system-fails/README.md): research objectives → Challenges → DDS → recorded studies and results. The submitted snapshot and the maintained research edition retain their own versions and evidence. [Case and review history](./contributions/when-controls-work-system-fails/README_VNext.md).
-````
-
-
 ## Tanda 5 — campañas, estudios e informes · 12 octubre 2026
 
 **Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda4 y pide que todas las tandas aprobadas estén en main. Contributions `1897ed9424f58b95a10f2839c8e5b9f7bf741935` incorpora la4; use-cases main `d4fad875d12c1542fff8236ec484d68c6e641327` publica los54archivos UC-21 ya existentes en su rama y una entrada raíz añadida conservando los23archivos previos. Se reutilizan las seis VNext del paquete: ningún expediente nuevo. Continúa este trabajo en main de ambos repositorios. La rama anterior queda como historia. Esta tanda publica revisión y cuatro candidatos nuevos; no los aplica. PDF y entradaFG-TIDA siguen al final.
@@ -362,3 +288,6 @@ work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
 UC-21 ylas tandas1–3 se publicaron en main con el paquete completo. La ancestry verifica los commits aprobados; los52blobs del paquete sin cambios en esta promoción conservan identidad, incluidas fuentes/assets/binarios/fixtures ycuatroVNext no actualizadas aquí. Los dosVNext actualizados registran la decisión; mainraíz conserva su texto previo másentrada. Los informes que consuma el caso mantienen pregunta/version y evidencia propia; no se fabrican resultados paraHC/HR/HS por enlazar los13estudios ocalibraciones. La nueva tanda5 propone cambios sólo en propietarios Contributions, ninguno en fuentesUC-21.
 
 Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
+
+
+**Entrada raíz y paquete UC-21 ya publicados en main.** La ficha literal de esa adición aplicada se retira de la cola de lectura; queda completa en [el commit de publicación](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). La auditoría, las instrucciones de Iván y los cuatro candidatos nuevos de tanda5 permanecen.
