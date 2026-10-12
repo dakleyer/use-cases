@@ -124,3 +124,40 @@ S3 es histórico y S6 pointer a Contributions en esta rama; la versión experime
 **P01:** impacto esperado Alto, riesgo Medio, esfuerzo Medio; primera preparación, conservando dominios y cuantificadores, pins y doble resultado S4. **P02:** impacto Medio, riesgo Bajo, esfuerzo Bajo; junto a P01. Una aceptación de caso no exige declarar HC/HR/HS.
 
 **Compatibilidad:** matriz antes o junto a README/SUBMISSION/H/R y plantilla, con un solo propietario. [Run record](templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) conserva pregunta/claim/criterio antes del outcome. [SUBMISSION](SUBMISSION_VNext.md#contraste-de-la-presentación-pública--12-octubre-2026) añade decisión de edición/destino/sectores. Los pares completos anteriores permanecen; ninguna incorporación ni cierre científico se ejecuta.
+
+
+## UC-21 y DDS: dos entradas enlazadas — 12 octubre 2026
+
+**Revisión por Codex, mismo asistente.** Iván precisa que UC-21 es el caso con objetivos y campañas, y DDS el método de investigación. Se mantiene esta distinción y se ajusta el orden del diseño de consolidación: primero probar la navegación desde UC-21 usando sus ejercicios existentes; después comprobar su generalidad con HF y otra familia. No se crea una nueva campaña S5 ni se mueve el caso al corpus metodológico.
+
+**Relación propuesta:** entrada UC-21 → explicación del caso y objetivos → escenarios/hipótesis → ejercicios existentes → contrato DDS aplicable → runs/evidencia → conclusión para el objetivo UC-21 → posible selección posterior de especificaciones. Desde DDS se recorre la misma relación por método → campañas de distintos casos → fuente del Challenge → evidencia → resultado. El registro futuro debe apuntar a los expedientes reales y sus propietarios, con varias relaciones por campaña; no duplicarlos bajo ambas entradas.
+
+**Asignación de funciones:** UC-21 mantiene su problema, objetivos, HC/HR/HS/H1–H6 y gates. DDS mantiene método y A/B/C. El expediente del estudio mantiene contrato, versión, comparadores, ejecución y conclusión. EA, RA, MSCA y otros componentes conservan fuentes y decisiones de incorporación. Objetivo, R0/R1/R2, Stage A/B/C, modo de evidencia y estado de ejecución son dimensiones separadas. Un resultado del caso no demuestra automáticamente necesidad de EA ni selección de una especificación.
+
+**Preservación:** enlaces actuales, snapshot enviado, anexos, escenarios, figuras, pruebas, denominadores y autoría conservados. Toda relación estructural se revisa en las VNext de README correspondientes; tres niveles EP→Awareness→índices técnicos, con expedientes de campaña como documentos de trabajo. Mantener una sola VNext lógica aunque un registro enlace varias rutas. La copia física posterior sigue pendiente de matriz de versiones/dependencias; no es necesaria para implementar la lectura propuesta.
+
+El puente inicial se propone en [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md). Aquí se propone su consecuencia sobre la declaración de estudios: vínculo objetivo→contrato→evidencia→conclusión, conservando el ámbito del caso. Impacto Alto/riesgo Medio/esfuerzo Medio; no añadir campos obligatorios a la plantilla ni interpretar EO-01…05 como aprobados sin conciliar las propuestas anteriores. Los comentarios S5/S4 distinguen ejercicios vigentes y follow-ups opcionales. No se renombra un ejercicio existente como nuevo.
+
+### Propuesta de trazabilidad caso–método — texto antes y texto después
+
+Fuente: [USE_CASE](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/USE_CASE.md), blob`6e3d299fdb077ef463d6e9b026510cd050eb34b3`. Adición al final de §4, antes de §5; el título vigente de §5 aparece una sola vez. Se conserva íntegro. La propuesta de selección objetivo-first dentro de §5 y esta adición se concilian para evitar duplicar instrucciones.
+
+**Texto antes — completo**
+
+```markdown
+## 5. Select, prepare and run one experiment
+```
+
+**Texto después — propuesto completo**
+
+```markdown
+### Research method and campaign traceability
+
+UC-21 owns the selected case objective, hypothesis, scenario and acceptance criteria. Where a study uses [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), its campaign record identifies the selected UC-21 question, source versions, research object and Stage, frozen contract, comparators, runs, evidence and resulting case-level conclusion. R0/R1/R2 retain their implementation-comparison meaning. A DDS Stage is assigned by the object and adjudication reference of that study.
+
+The campaign links back to the objective it tests and forward to the evidence it produces. A later specification-selection review records which findings it uses. The [package reading route](README.md) connects the case to the method and wider architectural corpus.
+
+## 5. Select, prepare and run one experiment
+```
+
+Estado: propuesta pendiente de decisión de Iván; fuente intacta. [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) recoge el vínculo recíproco; la entrada pública congelada sigue sin cambiar.

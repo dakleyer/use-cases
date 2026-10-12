@@ -125,3 +125,56 @@ Six failure scenarios, three implementation walkthroughs, nine technology profil
 ~~~~
 
 **Dependencia/decisión:** elegir el README de revisión/sucesor donde se incorporaría; preservar el snapshot presentado. No aplicar a la fuente, mover material, actualizar manifest o cambiar autoridad por esta propuesta. Iván decide el pasaje. [Matriz](USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026), [registro](templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) y [Annex H](annexes/HYPOTHESES_VNext.md#relectura-de-hipótesis-y-trazabilidad--12-octubre-2026) conservan los detalles.
+
+
+## UC-21 y DDS: dos entradas enlazadas — 12 octubre 2026
+
+**Revisión por Codex, mismo asistente.** Iván precisa que UC-21 es el caso con objetivos y campañas, y DDS el método de investigación. Se mantiene esta distinción y se ajusta el orden del diseño de consolidación: primero probar la navegación desde UC-21 usando sus ejercicios existentes; después comprobar su generalidad con HF y otra familia. No se crea una nueva campaña S5 ni se mueve el caso al corpus metodológico.
+
+La entrada pública [UC-21](https://github.com/FG-TIDA/use-cases/issues/21) remite en su cuerpo al snapshot `aec08fb5b0fac2ee399372370e9ee2a82a2d5779`. Su cuerpo no nombra DDS; sus comentarios sí lo explican en [S5](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) y [S4/CDA](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). README y USE_CASE coinciden entre aquel snapshot y la rama de revisión `76ac39bae74d10f4586f5fb787f69deaf7f59add`, pero S6 de la rama es un adapter hacia 00J/00J-A01. Por eso publicar una propuesta en la rama no modifica lo que alcanza el lector del enlace congelado. Una futura actualización de la entrada debe añadir una ruta explícita al seguimiento y mantener el envío anterior. La Issue y sus comentarios no se modifican aquí.
+
+El [autor de S5](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369) propone cerrar en el alcance evidenciado. Se comprobó su README externo v0.1.3, blob`4b0d2a673c8ee945bd6c52248390a3c595b9285a`: declara `I2-complete` completo para las ramas seleccionadas dentro del modelo y separa predicates enforced/assumed upstream. Esto explica el estado de esa discusión; no constituye una nueva aceptación conjunta ni un rerun. La organización conserva el ejercicio y sus pins, sin reiniciarlo para llenar el registro.
+
+**Relación propuesta:** entrada UC-21 → explicación del caso y objetivos → escenarios/hipótesis → ejercicios existentes → contrato DDS aplicable → runs/evidencia → conclusión para el objetivo UC-21 → posible selección posterior de especificaciones. Desde DDS se recorre la misma relación por método → campañas de distintos casos → fuente del Challenge → evidencia → resultado. El registro futuro debe apuntar a los expedientes reales y sus propietarios, con varias relaciones por campaña; no duplicarlos bajo ambas entradas.
+
+**Asignación de funciones:** UC-21 mantiene su problema, objetivos, HC/HR/HS/H1–H6 y gates. DDS mantiene método y A/B/C. El expediente del estudio mantiene contrato, versión, comparadores, ejecución y conclusión. EA, RA, MSCA y otros componentes conservan fuentes y decisiones de incorporación. Objetivo, R0/R1/R2, Stage A/B/C, modo de evidencia y estado de ejecución son dimensiones separadas. Un resultado del caso no demuestra automáticamente necesidad de EA ni selección de una especificación.
+
+**Preservación:** enlaces actuales, snapshot enviado, anexos, escenarios, figuras, pruebas, denominadores y autoría conservados. Toda relación estructural se revisa en las VNext de README correspondientes; tres niveles EP→Awareness→índices técnicos, con expedientes de campaña como documentos de trabajo. Mantener una sola VNext lógica aunque un registro enlace varias rutas. La copia física posterior sigue pendiente de matriz de versiones/dependencias; no es necesaria para implementar la lectura propuesta.
+
+**Prioridad:** puente de lectura inicial de alto impacto esperado y riesgo Bajo; esfuerzo Medio por contraste entre repositorios y épocas. La precisión de trazabilidad de campañas en el caso tiene impacto Alto y riesgo Medio: debe concordar con la matriz de objetivos y plantilla RUN_RECORD antes de adoptarse como campo obligatorio. No se activan campañas, adopción canónica, cambios de Issue ni redistribución por publicar esta revisión.
+
+### Propuesta de puente humano — texto antes y texto después
+
+Fuente actual: [README](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/README.md), blob`93a71b4ea2798dffb0aff1c138bd7b94d1da1257`. Inserción entre el párrafo de resultados S4 y Package contents. El antes coincide una vez; el después conserva completo ese contexto. Compatible con el resumen de objetivos propuesto antes en esta VNext, pero requiere conciliar la variante snapshot/rama y el campo de campañas antes de decidir la incorporación. No se impone DDS como requisito retroactivo de lectura del envío.
+
+**Texto antes — completo**
+
+```markdown
+Both S4 failure outcomes—unauthorized action and silent loss of the wider finding—remain separately visible. A result on only one does not establish both.
+
+## Package contents
+```
+
+**Texto después — propuesto completo**
+
+```markdown
+Both S4 failure outcomes—unauthorized action and silent loss of the wider finding—remain separately visible. A result on only one does not establish both.
+
+## The case, the research method and the wider system
+
+UC-21 defines the problem, scientific objectives, hypotheses, scenarios and case-level acceptance criteria. DDS is the research method used by studies that investigate selected questions from this case and from other cases. A campaign connects a particular UC-21 objective and scenario to a frozen research contract, executions, evidence and conclusions. Its results return to the selected case question and can inform a subsequent specification-selection review.
+
+| What you want to understand | Where to read |
+|---|---|
+| The case, its objectives, claims and R0/R1/R2 comparisons | [Main case](USE_CASE.md), [hypotheses](annexes/HYPOTHESES.md) and [recurrence protocol](annexes/RECURRENCE_PROTOCOL.md) |
+| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |
+| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md) |
+
+The [existing S5 research discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) connects this case to a Simplified DDS Stage A exercise. The [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) describes an optional follow-up with its own scope decision. These links preserve the existing exercises and identify proposed work. UC-21 R0/R1/R2 are comparison routes; DDS A/B/C distinguish research objects. Their relationship is recorded for each study.
+
+The [submitted reading snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) retains its original files. Follow-up work identifies the source versions it actually uses.
+
+## Package contents
+```
+
+Estado: propuesta, sin incorporar. [Caso VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE_VNext.md) contiene el extremo de la trazabilidad; [EP VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) explica el conjunto y [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) su uso por el método.
