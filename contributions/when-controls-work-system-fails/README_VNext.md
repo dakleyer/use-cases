@@ -152,28 +152,6 @@ La ficha de esta propuesta aplicada, incluidos sus pares antes/después, se reti
 El README y USE_CASE de la rama ya conectan caso, método y corpus arquitectónico. La Issue UC-21 sigue apuntando al envío congelado; su enlace de seguimiento requiere una decisión específica posterior. No se cambia la entrada externa, el snapshot o main use-cases por esta aplicación. Stage A/B/C, R0/R1/R2, criterios del caso, anexos y resultados permanecen iguales.
 
 
-## Siguiente paso: enlace desde la entrada pública UC-21
-
-La rama contiene ya el puente en [la edición aplicada](https://github.com/dakleyer/use-cases/blob/56eb0252c63cedc7aa578e7c3a5c897cc9669c5e/contributions/when-controls-work-system-fails/README.md). Para que lo encuentre quien llega a la [Issue UC-21](https://github.com/FG-TIDA/use-cases/issues/21), se propone añadir un párrafo inmediatamente después de sus tres enlaces iniciales. Los enlaces de envío a aec08fb5 permanecen idénticos; sólo se añade seguimiento. Fuente: cuerpo público leído con updated_at `2026-10-12T13:27:46Z`; antes literal único. Revalidar ese cuerpo inmediatamente antes de una futura incorporación; si cambia, conservar esta propuesta y añadir otra contra la fuente nueva.
-
-**Impacto esperado Alto / riesgo Bajo / esfuerzo Bajo / prioridad Primera.** Beneficio: acceso directo desde la entrada real al caso actualizado y al método, sin recorrer32comentarios. Riesgo: confundir envío y seguimiento o perder el pin; se conservan ambos con nombres y commits explícitos. Dependencia: los dos lectores aplicados en 56eb0252c63cedc7aa578e7c3a5c897cc9669c5e, ya verificados. Estado: propuesta para edición de la Issue, pendiente de autorización específica de Iván; no se publicó un mensaje o edición externa.
-
-**Texto antes — completo**
-
-```markdown
-**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
-```
-
-**Texto después — propuesto completo**
-
-```markdown
-**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
-
-**Research follow-up:** [UC-21 objectives, existing studies and the DDS reading route](https://github.com/dakleyer/use-cases/blob/56eb0252c63cedc7aa578e7c3a5c897cc9669c5e/contributions/when-controls-work-system-fails/README.md) · [DDS research method](https://github.com/dakleyer/structural-awareness-contributions/blob/a70f3cdf2e43f3c600009e1821392c83683c47c0/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The links above retain the submitted reading snapshot.
-```
-
-No se cambia título, sectores, requisitos, anexos, comentarios ni estado de la Issue por esta propuesta.
-
 
 ## Tanda 1: objetivos y acceso a trabajo publicado — 12 octubre 2026
 
@@ -191,3 +169,28 @@ Se reunieron las preguntas ya presentes en USE_CASE, H/HR/HS y Evidence. Esta ed
 Iván autoriza ejecutar la ruta UC-21→objetivos→Challenges→DDS→campañas→resultados. Las adiciones descritas aquí se incorporan conservando todos los bytes previos y vínculos de las fuentes. La terminología de lectura remite a sus propietarios: Challenge, escenario base, escenario de evaluación/perfil tecnológico y campañas/operaciones mantienen sus contextos. No se renombra un archivo, se modifica un contrato o se ejecuta una campaña.
 
 La ficha de esta tanda aplicada se retira de la cola activa; sus textos completos están en la [versión de preparación](https://github.com/dakleyer/use-cases/blob/81d0eb7804ed7b31abb6c7366f64aff91ae46fc2/contributions/when-controls-work-system-fails/README_VNext.md). El plan de las tandas 2–6 sigue vigente: inventario de dependencias/versiones, agrupación con unidad explícita, informes de campaña y conciliación. La entrada de Issue se actualiza después de verificar las fuentes publicadas. Sus enlaces de envío se conservan.
+
+
+## Entrada pública UC-21: texto listo y límite de acceso — 12 octubre 2026
+
+Los objetivos y la ruta de Challenges están publicados en [la edición de lectura](https://github.com/dakleyer/use-cases/blob/708faa56d4a664ba1617562c0453d54947528fc2/contributions/when-controls-work-system-fails/README.md); el índice DDS y los informes están en [Contributions](https://github.com/dakleyer/structural-awareness-contributions/blob/63f39526fb8a51ca81ea61bf2084a4ae789b74ee/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). Iván autoriza añadir esta navegación a la Issue21 manteniendo el envío original. El intento de edición devolvió403 Resource not accessible by integration; la sesión de navegador no pudo iniciarse por error de assets. La Issue sigue sin esta adición, y no se afirma que haya sido publicada allí. No se envió comentario nuevo ni se cambió metadata.
+
+**Impacto Alto / riesgo Bajo / esfuerzo Bajo.** Beneficio: acceso desde la entrada real al seguimiento. Dependencia: ambas fuentes ya publicadas y verificadas. Falta: edición por una cuenta/sesión con permiso en FG-TIDA. Antes de incorporar, revalidar el cuerpo vigente; todos los enlaces y textos anteriores permanecen.
+
+**Texto antes — completo del bloque de navegación inicial**
+
+```markdown
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+```
+
+**Texto después — bloque inicial conservado y adición exacta**
+
+```markdown
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+
+**Current research reading route — 12 October 2026:** [UC-21 objectives](https://github.com/dakleyer/use-cases/blob/708faa56d4a664ba1617562c0453d54947528fc2/contributions/when-controls-work-system-fails/README.md#research-objectives) → [Challenges and evaluation scenarios](https://github.com/dakleyer/use-cases/blob/708faa56d4a664ba1617562c0453d54947528fc2/contributions/when-controls-work-system-fails/README.md#challenges-evaluation-scenarios-and-recorded-work) → [DDS method and instruments](https://github.com/dakleyer/structural-awareness-contributions/blob/63f39526fb8a51ca81ea61bf2084a4ae789b74ee/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results) → [Recorded studies and results](https://github.com/dakleyer/structural-awareness-contributions/blob/63f39526fb8a51ca81ea61bf2084a4ae789b74ee/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#existing-extension-study-report-routes).
+
+The submitted snapshot above remains intact. The follow-up retains each study's own question, contract, versions and evidence. [Incremental navigation and preservation plan](https://github.com/dakleyer/structural-awareness-contributions/blob/63f39526fb8a51ca81ea61bf2084a4ae789b74ee/architectural-contributions/ecosystem-positioning/README_VNext.md#plan-gradual-de-navegación-uc-21--objetivos--challenges--dds--campañas-y-resultados).
+```
+
+Las versiones previas de la propuesta de entrada quedan en el [historial](https://github.com/dakleyer/use-cases/blob/708faa56d4a664ba1617562c0453d54947528fc2/contributions/when-controls-work-system-fails/README_VNext.md). Las hipótesis y propuestas científicas no aplicadas permanecen en sus expedientes.
