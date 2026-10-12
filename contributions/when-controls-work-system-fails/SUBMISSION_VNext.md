@@ -77,3 +77,20 @@ Un revisor de FG-TIDA identifica que no se ha ejecutado un benchmark de fabrican
 **Verificaciones antes de adoptar:** Comparar la redacción final contra USE_CASE §1.1 y H/R sin cambiar campos de submission, números de gates ni rango probatorio; confirmar que el cambio sólo existe como propuesta en VNext.
 
 **Cierre de estado:** propuestas únicamente. Las seis VNext constituyen una auditoría cruzada delimitada; ninguna implica fuente cambiada, resultado demostrado ni adopción. 
+
+
+---
+
+## Contraste de la presentación pública — 12 octubre 2026
+
+**Relectura por Codex, asistente de IA, 12 octubre 2026; corte `ee680a019a0cbd7270415f44237c894d370d275c`.** Se conserva la auditoría anterior, atribuida a ChatGPT/GPT-6 según sus propias notas. Esta relectura no autentica ese modelo ni constituye aceptación humana, revisión externa del producto o experimento. El resumen EO distingue gates, causalidad, recurrencia y suficiencia. Su viejo Residual gap es único y no está aplicado. La [Issue #21](https://github.com/FG-TIDA/use-cases/issues/21), consultada aquí, mantiene enlaces a aec08fb5 y no contiene estos EO. La VNext de otra rama no actualiza el envío.
+
+**Diferencia omitida en el resumen anterior:** Sector tiene once opciones marcadas en la Issue, frente a cuatro en SUBMISSION: Financial services, Media and publishing, Critical infrastructure y Other. Education, Displaced persons/humanitarian, Health, Telecom, Logistics, Energy y Smart home/IoT están desmarcadas en la fuente y marcadas en la Issue. Su updated_at es 2026-10-12T00:53:55Z; no prueba quién/cuándo modificó cada campo.
+
+**Pregunta pendiente para Iván/propietario:** ¿es ampliación intencionada de aplicabilidad hipotética o debe reproducir los cuatro marcadores del snapshot? No inferir error científico o validación sectorial por una casilla. Falta escoger antes de proponer cambio externo; no se fabrica reemplazo ni se corrige la Issue.
+
+## Plan al final — versión y destino
+
+**P01 original:** impacto Medio, riesgo Medio, esfuerzo Medio; después de acordar la matriz. Incorporación al archivo y eventual actualización de Issue son acciones separadas con decisión concreta/preservación. No cambian sectores, adopción o evidencia de productos por esta propuesta.
+
+**Aceptación:** cinco objetivos con las mismas hipótesis/límites; distinguir enviado, preparado y propuesto. Scope sectorial visible como decisión pendiente; no renovar todo estado público por este cotejo. [Custodia](README_VNext.md#relectura-de-la-auditoría-y-alcance-de-fuentes--12-octubre-2026) y [matriz](USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026) reciben el hallazgo. Fuente, Issue y manifest intactos.

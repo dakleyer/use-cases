@@ -77,3 +77,51 @@ El fabricante que abre el README debe poder contestar 'qué pregunta responderá
 **Verificaciones antes de adoptar:** Confirmar que los cinco EO son identificadores exclusivamente editoriales de navegación; enlazan hipótesis existentes, sin crear H7, R3, ni cifras o resultados experimentales. La explicación del propósito no afirma que todos los casos o productos hayan sido ejecutados.
 
 **Cierre de estado:** propuestas únicamente. Las seis VNext constituyen una auditoría cruzada delimitada; ninguna implica fuente cambiada, resultado demostrado ni adopción. 
+
+
+---
+
+## Relectura de la auditoría y alcance de fuentes — 12 octubre 2026
+
+**Relectura por Codex, asistente de IA, 12 octubre 2026; corte `ee680a019a0cbd7270415f44237c894d370d275c`.** Se conserva la auditoría anterior, atribuida a ChatGPT/GPT-6 según sus propias notas. Esta relectura no autentica ese modelo ni constituye aceptación humana, revisión externa del producto o experimento. Se leyeron las seis VNext completas y los contratos pertinentes: USE_CASE, SUBMISSION, README, Annex H §§2/6/7/8/9A/13, Annex R completo, plantilla y Annex Evidence E.1/E.2/E.6. T01–T09 se cotejaron por status y admisión de R2, no como nueva auditoría completa de sus APIs. Seis expedientes y cuatro apartados PARCIALES no significan seis auditores o cinco/sexta científicas terminadas.
+
+**Juicio:** la trazabilidad propuesta es útil y compatible. Los objetivos/hipótesis ya existen; EO-01…05 pueden orientarlos sin crear H7, R3 o nuevos gates. Los ocho viejos se localizaron una vez en sus fuentes. El commit auditado añadió exactamente seis VNext y no cambió ninguno de los 71 blobs anteriores. No causó los problemas de época encontrados.
+
+**Épocas:** frente al envío congelado aec08fb5, la rama ya había cambiado S3/S6 antes de esta auditoría. S3 conserva el cuerpo con aviso de copia histórica; S6 pasa de 46.017 caracteres a un pointer/adapter de 3.599 hacia 00J en Contributions. Los seis documentos fuente auditados sí conservan sus blobs del envío, pero no todos los escenarios. El 00J consultado tiene blob `17616f2495ccfc08828fed49d4f566f718e67eee` en `68d406d6d22d1a6099b91810737cde06e521df02`; se examinó su estatuto/frontera, no se atribuye lectura científica completa de sus 62.462 caracteres.
+
+**Hash conservado no certifica la rama actual.** De 23 bindings de texto cotejados con bytes autenticados por Git, tres no coinciden: USE_CASE, S3 y S6. S3/S6 sí coinciden en sus copias congeladas; ya no en la rama. USE_CASE tampoco coincide en el snapshot congelado, idéntico al actual: su época exacta sigue por identificar. No recalcular el manifiesto para simular custodia. Los seis ledgers nuevos no están en sus 47 entradas. No se certifican binarios u otros bindings por este chequeo parcial.
+
+La Issue FG-TIDA #21 sigue apuntando a aec08fb5; esta publicación no incorpora EO al envío. Su selección de sectores difiere de SUBMISSION: [comentario receptor](SUBMISSION_VNext.md#contraste-de-la-presentación-pública--12-octubre-2026). No se cambia la Issue.
+
+## Plan al final — prioridad y variante mínima de lectura
+
+| Propuesta anterior | Impacto esperado | Riesgo | Esfuerzo | Orden / límite |
+|---|---|---|---|---|
+| README P01, synopsis | Medio | Bajo | Bajo | Después de elegir matriz; evitar tres tablas duplicadas |
+| USE_CASE P01, matriz | Alto | Medio | Medio | Primera preparación; preservar cuantificadores/consumidores |
+| USE_CASE P02, preregistro | Medio | Bajo | Bajo | Junto a P01; objetivo no es hipótesis |
+| SUBMISSION P01 | Medio | Medio | Medio | Tras matriz y elección de destino/edición |
+| HYPOTHESES P01 | Medio | Bajo | Medio | Cotejar H1–H6 y ambos resultados S4 |
+| RECURRENCE P01 | Medio | Bajo | Bajo | Siguiente, opcional; HR ya es explícito |
+| RUN_RECORD P01 | Alto | Medio | Medio | Junto a matriz y registro Evidence E.6 |
+| RUN_RECORD P02 | Alto | Medio | Medio | Junto a P01; resultado por claim |
+
+Valoraciones de beneficio esperado, no eficacia probada ni autorización. Un solo mapa dueño en USE_CASE; lectores/annexes remiten a él.
+
+### Variante acotada — envío congelado y rama viva
+
+**Fuente:** primer párrafo descriptivo de README.md, blob `93a71b4ea2798dffb0aff1c138bd7b94d1da1257`. Viejo único. **Impacto Alto; riesgo Bajo; esfuerzo Bajo.** Corrige una expectativa de lectura; no reconstruye S6, cambia hipótesis o recertifica hashes. La precisión corresponde a un futuro lector de revisión, sin reescribir el envío anterior.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Six failure scenarios, three implementation walkthroughs, nine technology profiles and explicit hypotheses for review. This directory is a self-contained publication package. It contains the complete case-scope material; no historical archive or subsequent specification is required to read it.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+Six failure scenarios, three implementation walkthroughs, nine technology profiles and explicit hypotheses for review. The frozen submission at [commit aec08fb5](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) remains the self-contained reading snapshot. In this review branch, S3 is historical and S6 points to maintained Contributions sources; identify and pin those source versions before a new experiment.
+~~~~
+
+**Dependencia/decisión:** elegir el README de revisión/sucesor donde se incorporaría; preservar el snapshot presentado. No aplicar a la fuente, mover material, actualizar manifest o cambiar autoridad por esta propuesta. Iván decide el pasaje. [Matriz](USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026), [registro](templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) y [Annex H](annexes/HYPOTHESES_VNext.md#relectura-de-hipótesis-y-trazabilidad--12-octubre-2026) conservan los detalles.

@@ -93,3 +93,34 @@ Cada run card quedaría legible como una prueba de una pregunta concreta: cuál,
 **Razón:** al instrumentar el registro y la selección, la pregunta experimental debe quedar fijada antes del ensayo; preservar el contrato completo y no promover los hallazgos.
 
 **Cierre de estado:** propuestas únicamente. Las seis VNext constituyen una auditoría cruzada delimitada; ninguna implica fuente cambiada, resultado demostrado ni adopción. 
+
+
+---
+
+## Relectura del registro y del resultado — 12 octubre 2026
+
+**Relectura por Codex, asistente de IA, 12 octubre 2026; corte `ee680a019a0cbd7270415f44237c894d370d275c`.** Se conserva la auditoría anterior, atribuida a ChatGPT/GPT-6 según sus propias notas. Esta relectura no autentica ese modelo ni constituye aceptación humana, revisión externa del producto o experimento. Pregunta y resultado son mejoras útiles; ambos viejos son únicos. La plantilla enlaza [Evidence E.6](../annexes/EVIDENCE_AND_PROTOCOL.md#e6--complete-run-record), que ya registra claim/diseño, decisión, métricas y conclusión. Antes de hacer EO obligatorio, decidir compatibilidad con esos grupos y matriz adoptada; no dos contratos de registro incompatibles.
+
+P02 decía refutar el “selected goal”. Se refutan/limitan afirmaciones; las preguntas/objetivos se examinan o responden. La alternativa precisa el objeto de inferencia, sin modificar la plantilla.
+
+## Plan al final — pregunta previa, conclusión por claim
+
+**P01/P02 originales:** impacto esperado Alto; riesgo Medio; esfuerzo Medio; juntos después o con matriz/E.6. El acoplamiento entre significado, campos y congelación impide tratarlos como dos cambios aislados de Bajo riesgo por tener pocas líneas. Sin actualización de corridas históricas.
+
+### Variante textual mínima de P02
+
+**Fuente:** línea del after propuesto P02 de esta VNext, aún no texto de RUN_RECORD.md. **Impacto Medio; riesgo Bajo; esfuerzo Bajo.** Viejo único en ese contexto. Se preserva el P02 anterior; variante pendiente de Iván.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+- **Objective-specific finding:** EO identifier; prespecified observation that would support, limit/refute or leave the selected goal inconclusive; what was actually observed; whether the stated objective was tested at all; result and scope without promoting a gate pass to HC/HR/HS.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+- **Objective-specific finding:** EO identifier; prespecified observation that would support, limit/refute or leave the selected claim inconclusive; what was actually observed; whether the stated objective was tested at all; result and scope without promoting a gate pass to HC/HR/HS.
+~~~~
+
+**Aceptación:** objetivo/claim/route y criterio fijados antes del outcome; separar observación, conclusión y scope. Aceptación de caso sin HC/HR/HS sigue permitida. Resolver matriz y E.6 antes de modificar campos obligatorios. No atribuir el hash de la plantilla a la VNext o refutar una pregunta. [Annex H](../annexes/HYPOTHESES_VNext.md#relectura-de-hipótesis-y-trazabilidad--12-octubre-2026) y [caso](../USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026) reciben el contraste. Las fuentes y las propuestas originales están intactas.

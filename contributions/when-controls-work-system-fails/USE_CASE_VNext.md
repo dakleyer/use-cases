@@ -107,3 +107,20 @@ The five objective IDs below are **editorial cross-references only**, not new hy
 **Razón:** al instrumentar el registro y la selección, la pregunta experimental debe quedar fijada antes del ensayo; preservar el contrato completo y no promover los hallazgos.
 
 **Cierre de estado:** propuestas únicamente. Las seis VNext constituyen una auditoría cruzada delimitada; ninguna implica fuente cambiada, resultado demostrado ni adopción. 
+
+
+---
+
+## Relectura de la matriz de objetivos — 12 octubre 2026
+
+**Relectura por Codex, asistente de IA, 12 octubre 2026; corte `ee680a019a0cbd7270415f44237c894d370d275c`.** Se conserva la auditoría anterior, atribuida a ChatGPT/GPT-6 según sus propias notas. Esta relectura no autentica ese modelo ni constituye aceptación humana, revisión externa del producto o experimento. P01 respeta HC como existencia de witness admisible por familia, HR como recurrencia después de corrección R1 demostrada y HS como suficiencia de un candidato común dentro del dominio. Se contrastaron H §§2/6/7/9A/13 y R §§R.2/R.4/R.6/R.7. El soporte HC completo exige ambos resultados S4; HR puede declarar una rama. A–D son condiciones causales, no posiciones epistemológicas A/B/C/D ni etapas DDS. Prevención no prueba causalidad, minimalidad o exclusividad.
+
+EO no está adoptado en la fuente. Los dos viejos P01/P02 son únicos; “preparadas para revisión” no acredita preregistro o admisión. No se hicieron nuevas lecturas completas de los grandes escenarios o baselines nativos.
+
+S3 es histórico y S6 pointer a Contributions en esta rama; la versión experimental no debe depender del valor cambiante de main. Los perfiles Claude/Stripe ya separan H1 aún fallida de H1-L corregida, o equivalente, que admitiría R2. Es concordancia documental, no corrección probada. [README VNext](README_VNext.md#relectura-de-la-auditoría-y-alcance-de-fuentes--12-octubre-2026) documenta snapshots y bindings SHA.
+
+## Plan al final — matriz y conclusiones
+
+**P01:** impacto esperado Alto, riesgo Medio, esfuerzo Medio; primera preparación, conservando dominios y cuantificadores, pins y doble resultado S4. **P02:** impacto Medio, riesgo Bajo, esfuerzo Bajo; junto a P01. Una aceptación de caso no exige declarar HC/HR/HS.
+
+**Compatibilidad:** matriz antes o junto a README/SUBMISSION/H/R y plantilla, con un solo propietario. [Run record](templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) conserva pregunta/claim/criterio antes del outcome. [SUBMISSION](SUBMISSION_VNext.md#contraste-de-la-presentación-pública--12-octubre-2026) añade decisión de edición/destino/sectores. Los pares completos anteriores permanecen; ninguna incorporación ni cierre científico se ejecuta.

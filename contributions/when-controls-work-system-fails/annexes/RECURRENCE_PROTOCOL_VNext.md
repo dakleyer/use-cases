@@ -75,3 +75,18 @@ Evitar que fabricante o evaluador confunda la falsación de una intervención pr
 **Verificaciones antes de adoptar:** Mantener HR como pretensión acotada al dominio de configuración y cambio declarado; documentar qué resultados muestran corrección, recurrencia, ausencia observada o alcance insuficiente.
 
 **Cierre de estado:** propuestas únicamente. Las seis VNext constituyen una auditoría cruzada delimitada; ninguna implica fuente cambiada, resultado demostrado ni adopción. 
+
+
+---
+
+## Relectura de recurrencia y sus límites — 12 octubre 2026
+
+**Relectura por Codex, asistente de IA, 12 octubre 2026; corte `ee680a019a0cbd7270415f44237c894d370d275c`.** Se conserva la auditoría anterior, atribuida a ChatGPT/GPT-6 según sus propias notas. Esta relectura no autentica ese modelo ni constituye aceptación humana, revisión externa del producto o experimento. Se leyó Annex R completo frente a H §§6/13. EO-03 respeta R1 corregida, mismo fallo, salvaguardas/adaptación retenidas y cambio admitido. Degradar una defensa deliberadamente en A–D no prueba HR con esa defensa retenida. Un éxito finito limita una intervención, no todo el existencial; un examen exhaustivo válido puede refutar el HR acotado.
+
+S4 conserva dos resultados. HR de una rama no afirma ambos ni HC/HS. Claude/Stripe requieren H1-L o equivalente corregida, no H1 que seguía fallando. Ese cotejo de admisión/status no reproduce productos.
+
+## Plan al final — localizador opcional
+
+**P01:** impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; Siguiente, después de matriz. El original ya explica R1, dominio y negación; el párrafo puede abreviarse/rechazarse sin un defecto científico. Viejo único, fórmula HR intacta.
+
+**Aceptación/dependencias:** [caso](../USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026), H y [registro](../templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) separan claim/route/outcome con escenario versionado; no pointer S6 mutable como fixture congelado. Ejecución/modificación/aceptación no se derivan de esta publicación.

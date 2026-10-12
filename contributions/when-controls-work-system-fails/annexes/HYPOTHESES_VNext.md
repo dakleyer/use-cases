@@ -85,3 +85,46 @@ The separate H1–H6 statements remain available as explicitly selected *individ
 **Verificaciones antes de adoptar:** Confirmar identidad H1–H6 con requisitos congelados; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
 
 **Cierre de estado:** propuestas únicamente. Las seis VNext constituyen una auditoría cruzada delimitada; ninguna implica fuente cambiada, resultado demostrado ni adopción. 
+
+
+---
+
+## Relectura de hipótesis y trazabilidad — 12 octubre 2026
+
+**Relectura por Codex, asistente de IA, 12 octubre 2026; corte `ee680a019a0cbd7270415f44237c894d370d275c`.** Se conserva la auditoría anterior, atribuida a ChatGPT/GPT-6 según sus propias notas. Esta relectura no autentica ese modelo ni constituye aceptación humana, revisión externa del producto o experimento. Se releen HC §§2/6/7, H1–H6 §8, HS §9A y selección §13. EO preserva hipótesis, existenciales, clases candidatas, umbrales prospectivos y diferencia causalidad/prevención. Un candidato fallido no refuta todos; H1–H6 no son seis etiquetas de escenario. Sin contrastes ejecutados o cierre de quinta/sexta científica.
+
+La propia auditoría dice “requisitos congelados” para H1–H6. Son hipótesis de investigación, no requisitos normativos. Los enunciados fuente no requieren modificación por esta precisión.
+
+## Plan al final — tipo y dueño de la afirmación
+
+**P01:** impacto esperado Medio; riesgo Bajo; esfuerzo Medio; después de elegir matriz del caso, con cotejo de significados y consumidores. La [matriz](../USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026) es propietaria del mapa; H/R mantienen inferencia.
+
+### Precisión mínima de instrucciones de revisión
+
+**Dos menciones de esta VNext, §5 y verificación P01 de §6, como un cambio conjunto. Impacto Medio; riesgo Bajo; esfuerzo Bajo.** Viejos únicos por contexto; no enmienda de H1–H6.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+- **Prueba futura que permitiría cerrar la revisión:** Confirmar identidad H1–H6 con requisitos congelados; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+- **Prueba futura que permitiría cerrar la revisión:** Confirmar H1–H6 contra sus enunciados de hipótesis fuente; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
+~~~~
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+**Verificaciones antes de adoptar:** Confirmar identidad H1–H6 con requisitos congelados; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+**Verificaciones antes de adoptar:** Confirmar H1–H6 contra sus enunciados de hipótesis fuente; no reetiquetar HC o HS ni atribuirles adopción por Theme13; distinguir suficiente respuesta de mínimo conjunto de especificaciones.
+~~~~
+
+**Condición:** si Iván elige la precisión, mantener ambas menciones concordantes y los antecedentes históricos. Rectifica categoría de la instrucción, no refutación, ejecución o freeze. [Registro](../templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) distingue objetivo de claim. Todas las propuestas/discusiones anteriores permanecen; ninguna se incorpora aquí.
