@@ -128,3 +128,17 @@ La propia auditoría dice “requisitos congelados” para H1–H6. Son hipótes
 ~~~~
 
 **Condición:** si Iván elige la precisión, mantener ambas menciones concordantes y los antecedentes históricos. Rectifica categoría de la instrucción, no refutación, ejecución o freeze. [Registro](../templates/RUN_RECORD_VNext.md#relectura-del-registro-y-del-resultado--12-octubre-2026) distingue objetivo de claim. Todas las propuestas/discusiones anteriores permanecen; ninguna se incorpora aquí.
+
+
+## Tanda 3 — objetivos, Challenges y escenarios de evaluación · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza las tres adiciones concretas de la tanda2 y pide preparar y continuar la siguiente. Esas adiciones ya están publicadas en Contributions `2ff085688de77938aeaa5a3c0e7edbb607247d58` y la rama UC-21 `285ca77fc4cc5d69f3ea78aeda820777c647d0da`, con todos los bytes anteriores de las fuentes conservados. El PDF y la entrada pública se reservan para el final. Esta tanda publica revisión y cuatro propuestas; su incorporación requiere el GO de esta tanda.
+
+### Revisión de las inferencias entre objetivos
+
+Annex H§13 y Annex R§R.4 separan case acceptance,HC,HR,HS y H1–H6. Para S4, full-family HC abarca sobrealcance y pérdida; HR admite una rama acotada identificada. La comunicación/aviso útil sólo es parte de HS: mecanismo, comparación de componentes, respuesta autorizada efectiva, tiempo y continuidad pertenecen a su contrato. HEW/observability locales pueden orientar piezas sin aportar por enlace un resultado HS.
+
+El S5 externo señala que Q0/Q1/Q3/parte deQ5 se asumen upstream o simplifican; el resultado de sus ramas no satisface silenciosamente todos los37gates ni el protocolo causal. No candidato al cuerpo de hipótesis: la selección existente es suficiente para esta tanda. La mejora propuesta es navegación hacia esas reglas.
+
+
+Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/README_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/README_VNext.md). Las entradas se atribuyen al mismo asistente; no se inventa consenso ni una revisión independiente.

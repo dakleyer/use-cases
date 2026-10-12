@@ -124,3 +124,17 @@ P02 decía refutar el “selected goal”. Se refutan/limitan afirmaciones; las 
 ~~~~
 
 **Aceptación:** objetivo/claim/route y criterio fijados antes del outcome; separar observación, conclusión y scope. Aceptación de caso sin HC/HR/HS sigue permitida. Resolver matriz y E.6 antes de modificar campos obligatorios. No atribuir el hash de la plantilla a la VNext o refutar una pregunta. [Annex H](../annexes/HYPOTHESES_VNext.md#relectura-de-hipótesis-y-trazabilidad--12-octubre-2026) y [caso](../USE_CASE_VNext.md#relectura-de-la-matriz-de-objetivos--12-octubre-2026) reciben el contraste. Las fuentes y las propuestas originales están intactas.
+
+
+## Tanda 3 — objetivos, Challenges y escenarios de evaluación · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza las tres adiciones concretas de la tanda2 y pide preparar y continuar la siguiente. Esas adiciones ya están publicadas en Contributions `2ff085688de77938aeaa5a3c0e7edbb607247d58` y la rama UC-21 `285ca77fc4cc5d69f3ea78aeda820777c647d0da`, con todos los bytes anteriores de las fuentes conservados. El PDF y la entrada pública se reservan para el final. Esta tanda publica revisión y cuatro propuestas; su incorporación requiere el GO de esta tanda.
+
+### El formulario actual ya cubre esta selección
+
+Se leyó RUN_RECORD completo: pide claim/scope,S4outcome,route,causalcondition,versiones/grants,basis,X1–X7,R1correction,cambio/adaptación,budget/deadline,oracle/observaciones y conclusiones separadas. No hace falta introducir EO obligatorios, otro nivel de ficha ni nueva campaña. No hay candidato de cambio del formulario en esta tanda. La guía del README y DDS lleva al formulario existente.
+
+Un registro futuro identificará el perfil exacto y sus hechos asumidos; no usará «I2» sin namespace ni tratará una respuestaHOLD como efecto observado. Los blanks son inputs pendientes, nunca hechos por defecto. La lectura del formulario no ejecuta un run.
+
+
+Relación revisada en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [baseline VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/README_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/2ff085688de77938aeaa5a3c0e7edbb607247d58/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/285ca77fc4cc5d69f3ea78aeda820777c647d0da/contributions/when-controls-work-system-fails/README_VNext.md). Las entradas se atribuyen al mismo asistente; no se inventa consenso ni una revisión independiente.
