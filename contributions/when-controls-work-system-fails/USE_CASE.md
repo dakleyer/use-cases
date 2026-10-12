@@ -42,6 +42,20 @@ The six scenarios investigate **common causal sufficiency**, defined in [Annex H
 
 Each scenario retains its facts, consequences and quality plan and can be reviewed independently.
 
+### 1.1 Research objectives and evidence
+
+Select the scientific question first, then its scenario, configuration, comparison and evidence contract.
+
+| Objective | Question and expected evidence | Protocol |
+|---|---|---|
+| Correct decision and legitimate continuity | Does the selected configuration satisfy the scenario's applicable gates and permit justified work? Report the decision, actual effect, timing and burden. | [Case quality plans](#6-six-quality-plans-visible-acceptance-criteria) |
+| Effective existing defences | Can a competent ordinary or reinforced configuration correct the failure? Record its actual controls and credit successful conventional solutions. | [R0/R1 comparison](#5-select-prepare-and-run-one-experiment) |
+| Corrected-baseline recurrence | After demonstrated R1 correction, can an admitted observable material change reproduce the same failure with that configuration and its defences retained? | [HR](annexes/RECURRENCE_PROTOCOL.md#annex-r) |
+| Common causal sufficiency | Can each declared family supply an admitted causal witness for the proposed transfer/loss/change/reuse pathway, with an independent failure outcome and matched causal controls? | [HC](annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |
+| Sufficient common response | Does the selected communication-and-processing candidate provide timely warning and an authorized effective response while preserving legitimate activity? | [HS](annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |
+
+Use [claim selection](annexes/HYPOTHESES.md#13-claim-selection) for HC, HR, HS and individual H1–H6 contrasts. Preserve both S4 outcomes when claiming its full family: unauthorized action and loss of the wider finding. Each conclusion identifies its tested objective and scope. The [current reader guide](README.md#challenges-evaluation-scenarios-and-recorded-work) connects these questions to prepared work, executed exercises, DDS and their records.
+
 ## 2. The situation and six scenarios
 
 **Plain-language description.** Agentic workflows can pass local technical checks while producing a decision that the available evidence no longer supports. Six constructed scenarios examine this through an ordinary implementation, a strongly defended implementation and that same defended implementation after a material change. The proposed assessment asks what must remain demonstrably true before the affected decision can be acted upon.

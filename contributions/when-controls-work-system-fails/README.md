@@ -15,6 +15,20 @@ Six failure scenarios, three implementation walkthroughs, nine technology profil
 > [!NOTE]
 > The profiles are documentary implementation walkthroughs, not nine executed product benchmarks.
 
+## Research objectives
+
+UC-21 asks five related questions. Each study selects its question before choosing the scenario, technology and comparison route.
+
+| Objective | What the study seeks to establish | Governing source |
+|---|---|---|
+| Decision correctness and legitimate continuity | Whether the selected configuration meets the scenario's decision, authority, effect and timing conditions while allowing justified activity. | [Case acceptance plans](USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) |
+| Effectiveness of existing controls | Whether a competent conventional configuration, including the reinforced R1, corrects the selected failure. Successful existing defences receive credit. | [R0/R1/R2 comparisons](USE_CASE.md#5-select-prepare-and-run-one-experiment) |
+| Recurrence after correction | Whether an admitted material change brings back the same failure while the successfully corrected R1 and its adaptation remain active. | [HR recurrence protocol](annexes/RECURRENCE_PROTOCOL.md#annex-r) |
+| Common causal pathway | Whether an admissible transfer, qualification-loss, material-change and reuse pathway can produce the independently defined failure in each declared family. | [HC causal protocol](annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |
+| Sufficient common response | Whether a declared communication-and-processing mechanism provides timely warning and authorized response while preserving legitimate activity across its registered scope. | [HS response protocol](annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |
+
+[H1–H6](annexes/HYPOTHESES.md#8-the-six-canonical-hypotheses-and-their-refutation-tests) supply additional, separately selected contrasts. The [claim-selection guide](annexes/HYPOTHESES.md#13-claim-selection) and [run record](templates/RUN_RECORD.md) keep a case outcome separate from the hypothesis conclusion.
+
 ## Start here
 
 ![Package navigation: main case, submission form, hypothesis protocols, annex index and run-record template; the numbered instructions follow.](assets/reading/package_map.png)
@@ -93,3 +107,20 @@ To submit through the FG-TIDA issue form, copy the relevant text from SUBMISSION
 The profiles are documentary implementation walkthroughs, not nine executed product benchmarks. The four JSON artifacts are non-deployed designs with placeholder functions; their full contents and implementation assumptions are in T08. Scenario facts are synthetic unless explicitly attributed. Hypotheses and proposed witnesses remain unproven; preserve successful defences and negative or inconclusive results.
 
 Contributor: **The Integral Management Society / Tegrity.AI**. Contact: **Iván Abril Palma — ivan.abril@tegrity.ai**. This is a public contributor draft, not an adopted FG-TIDA standard. Original authorship and applicable source terms remain in force. Principles, specification traceability and historical preservation records are separate deliverables and are not included as case annexes here.
+
+
+## Challenges, evaluation scenarios and recorded work
+
+**Reading update — 12 October 2026.** UC-21's six failure families are the Challenges in this reader route; their original S1–S6 scenario labels and 00E–00J source mappings remain intact. Within DDS, an evaluation scenario relates a Challenge to a specified technology/configuration and declared conditions. The source method separately records the bounded base scenario and the technology mapping. Consult the [case conventions](annexes/CONVENTIONS.md), [DDS Challenge definition](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first) and [DDS profiles, traversals and campaigns](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces). A research campaign retains its distinction from the business campaigns in S4 and R01's campaign accounting unit.
+
+| Work to inspect | Published entry and state |
+|---|---|
+| UC-21 scenarios S1–S6, technology profiles and proposed causal/response trials | [Complete annex index](annexes/README.md), [hypotheses](annexes/HYPOTHESES.md) and [recurrence protocol](annexes/RECURRENCE_PROTOCOL.md). This package defines documentary profiles and proposed experiments. |
+| Existing S5 external exercise | [Version-pinned S5 study](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md) and [UC-21 scope reconciliation](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). Executable local evidence covers its selected supplied-model branches; the author recommends scoped closure. |
+| Existing S5 stateful companion | [00I-STATEFUL report](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md). Separately executed synthetic state/effect and local recovery evidence. |
+| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |
+| Reductions, extensions and reusable instruments | [DDS reading route](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results), including R01, extension methods, oracle/harness and the existing study reports. |
+
+Start with the objective and source version of the selected exercise. Then follow its registration, frozen inputs, code, observed results and report. A study from another case retains its own question and evidence; linking it here creates a research route.
+
+The [submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) keeps the original package, counts and integrity manifest. This reader edition adds navigation. For S6, the maintained branch uses the existing scenario adapter to its identified 00J sources; an actual run pins the editions it consumes.

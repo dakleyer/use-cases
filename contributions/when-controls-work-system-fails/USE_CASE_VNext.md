@@ -156,32 +156,10 @@ La matriz añadida resume cinco preguntas actuales y sus fuentes. Se selecciona 
 
 **Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
 
-### Adición 1 — contributions/when-controls-work-system-fails/USE_CASE.md
 
-Contexto único contra blob `f26a223bd73558e9c99cb16d0ebb6fc824f59436`. Impacto Alto; riesgo Medio; esfuerzo Medio. Adición de lectura autorizada por Iván; las hipótesis, contratos y resultados anteriores se conservan.
 
-**Texto antes — contexto vigente completo**
+## Incorporación de la primera tanda de lectura — 12 octubre 2026
 
-```
-## 2. The situation and six scenarios
-```
+Iván autoriza ejecutar la ruta UC-21→objetivos→Challenges→DDS→campañas→resultados. Las adiciones descritas aquí se incorporan conservando todos los bytes previos y vínculos de las fuentes. La terminología de lectura remite a sus propietarios: Challenge, escenario base, escenario de evaluación/perfil tecnológico y campañas/operaciones mantienen sus contextos. No se renombra un archivo, se modifica un contrato o se ejecuta una campaña.
 
-**Texto después — contexto y bloque a añadir completos**
-
-```
-### 1.1 Research objectives and evidence
-
-Select the scientific question first, then its scenario, configuration, comparison and evidence contract.
-
-| Objective | Question and expected evidence | Protocol |
-|---|---|---|
-| Correct decision and legitimate continuity | Does the selected configuration satisfy the scenario's applicable gates and permit justified work? Report the decision, actual effect, timing and burden. | [Case quality plans](#6-six-quality-plans-visible-acceptance-criteria) |
-| Effective existing defences | Can a competent ordinary or reinforced configuration correct the failure? Record its actual controls and credit successful conventional solutions. | [R0/R1 comparison](#5-select-prepare-and-run-one-experiment) |
-| Corrected-baseline recurrence | After demonstrated R1 correction, can an admitted observable material change reproduce the same failure with that configuration and its defences retained? | [HR](annexes/RECURRENCE_PROTOCOL.md#annex-r) |
-| Common causal sufficiency | Can each declared family supply an admitted causal witness for the proposed transfer/loss/change/reuse pathway, with an independent failure outcome and matched causal controls? | [HC](annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |
-| Sufficient common response | Does the selected communication-and-processing candidate provide timely warning and an authorized effective response while preserving legitimate activity? | [HS](annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |
-
-Use [claim selection](annexes/HYPOTHESES.md#13-claim-selection) for HC, HR, HS and individual H1–H6 contrasts. Preserve both S4 outcomes when claiming its full family: unauthorized action and loss of the wider finding. Each conclusion identifies its tested objective and scope. The [current reader guide](README.md#challenges-evaluation-scenarios-and-recorded-work) connects these questions to prepared work, executed exercises, DDS and their records.
-
-## 2. The situation and six scenarios
-```
+La ficha de esta tanda aplicada se retira de la cola activa; sus textos completos están en la [versión de preparación](https://github.com/dakleyer/use-cases/blob/81d0eb7804ed7b31abb6c7366f64aff91ae46fc2/contributions/when-controls-work-system-fails/USE_CASE_VNext.md). El plan de las tandas 2–6 sigue vigente: inventario de dependencias/versiones, agrupación con unidad explícita, informes de campaña y conciliación. La entrada de Issue se actualiza después de verificar las fuentes publicadas. Sus enlaces de envío se conservan.
