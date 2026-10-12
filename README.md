@@ -25,3 +25,8 @@ work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
 
 - Create a [new issue](https://github.com/FG-TIDA/use-cases/issues/new/choose) and complete every required field.
 - Once an issue is opened, add a row to the index table above with a link to it.
+
+
+## UC-21 — When the controls work but the system fails
+
+[Read the complete UC-21 package](./contributions/when-controls-work-system-fails/README.md): research objectives → Challenges → DDS → recorded studies and results. The submitted snapshot and the maintained research edition retain their own versions and evidence. [Case and review history](./contributions/when-controls-work-system-fails/README_VNext.md).
