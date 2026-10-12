@@ -50,6 +50,20 @@ A strong conventional implementation may pass. Legitimate-activity controls prev
 
 Both S4 failure outcomes—unauthorized action and silent loss of the wider finding—remain separately visible. A result on only one does not establish both.
 
+## The case, the research method and the wider system
+
+UC-21 defines the problem, scientific objectives, hypotheses, scenarios and case-level acceptance criteria. DDS is the research method used by studies that investigate selected questions from this case and from other cases. A campaign connects a particular UC-21 objective and scenario to a frozen research contract, executions, evidence and conclusions. Its results return to the selected case question and can inform a subsequent specification-selection review.
+
+| What you want to understand | Where to read |
+|---|---|
+| The case, its objectives, claims and R0/R1/R2 comparisons | [Main case](USE_CASE.md), [hypotheses](annexes/HYPOTHESES.md) and [recurrence protocol](annexes/RECURRENCE_PROTOCOL.md) |
+| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |
+| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md) |
+
+The [existing S5 research discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) connects this case to a Simplified DDS Stage A exercise. The [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) describes an optional follow-up with its own scope decision. These links preserve the existing exercises and identify proposed work. UC-21 R0/R1/R2 are comparison routes; DDS A/B/C distinguish research objects. Their relationship is recorded for each study.
+
+The [submitted reading snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) retains its original files. Follow-up work identifies the source versions it actually uses.
+
 ## Package contents
 
 | Location | Contents |

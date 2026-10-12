@@ -138,26 +138,10 @@ S3 es histórico y S6 pointer a Contributions en esta rama; la versión experime
 
 El puente inicial se propone en [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md). Aquí se propone su consecuencia sobre la declaración de estudios: vínculo objetivo→contrato→evidencia→conclusión, conservando el ámbito del caso. Impacto Alto/riesgo Medio/esfuerzo Medio; no añadir campos obligatorios a la plantilla ni interpretar EO-01…05 como aprobados sin conciliar las propuestas anteriores. Los comentarios S5/S4 distinguen ejercicios vigentes y follow-ups opcionales. No se renombra un ejercicio existente como nuevo.
 
-### Propuesta de trazabilidad caso–método — texto antes y texto después
+## Aplicación del puente UC-21–DDS — 12 octubre 2026
 
-Fuente: [USE_CASE](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/USE_CASE.md), blob`6e3d299fdb077ef463d6e9b026510cd050eb34b3`. Adición al final de §4, antes de §5; el título vigente de §5 aparece una sola vez. Se conserva íntegro. La propuesta de selección objetivo-first dentro de §5 y esta adición se concilian para evitar duplicar instrucciones.
+Iván autoriza continuar con el recorrido UC-21→objetivos→ejercicios existentes→DDS→resultados del caso. Se incorpora exactamente la inserción de trazabilidad al final de §4, antes de §5 propuesta aquí. No se sustituye ni elimina texto previo de la fuente. La aplicación y esta actualización de estado se publican juntas.
 
-**Texto antes — completo**
+La ficha de esta propuesta aplicada, incluidos sus pares antes/después, se retira de la cola activa. Su texto completo queda en la [VNext predecesora](https://github.com/dakleyer/use-cases/blob/3856dfd100e3d124d6a873f198ae1e85a97626e0/contributions/when-controls-work-system-fails/USE_CASE_VNext.md) y en custodia auténtica. Las auditorías y todas las demás propuestas de objetivos/matriz/snapshot se conservan; esas otras propuestas no se incorporaron por este cambio. Las fuentes congeladas y SHA256SUMS.txt conservan su edición anterior; no certifican esta nueva redacción de los dos lectores. No se regeneraron hashes científicos ni se declararon nuevas ejecuciones.
 
-```markdown
-## 5. Select, prepare and run one experiment
-```
-
-**Texto después — propuesto completo**
-
-```markdown
-### Research method and campaign traceability
-
-UC-21 owns the selected case objective, hypothesis, scenario and acceptance criteria. Where a study uses [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), its campaign record identifies the selected UC-21 question, source versions, research object and Stage, frozen contract, comparators, runs, evidence and resulting case-level conclusion. R0/R1/R2 retain their implementation-comparison meaning. A DDS Stage is assigned by the object and adjudication reference of that study.
-
-The campaign links back to the objective it tests and forward to the evidence it produces. A later specification-selection review records which findings it uses. The [package reading route](README.md) connects the case to the method and wider architectural corpus.
-
-## 5. Select, prepare and run one experiment
-```
-
-Estado: propuesta pendiente de decisión de Iván; fuente intacta. [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) recoge el vínculo recíproco; la entrada pública congelada sigue sin cambiar.
+El README y USE_CASE de la rama ya conectan caso, método y corpus arquitectónico. La Issue UC-21 sigue apuntando al envío congelado; su enlace de seguimiento requiere una decisión específica posterior. No se cambia la entrada externa, el snapshot o main use-cases por esta aplicación. Stage A/B/C, R0/R1/R2, criterios del caso, anexos y resultados permanecen iguales.

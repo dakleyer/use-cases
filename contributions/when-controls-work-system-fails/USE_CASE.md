@@ -117,6 +117,12 @@ These synthetic mandates do not establish legal validity. Before authority-depen
 
 **Proposed primary category: Runtime Enforcement (Control Plane).** Delegation, Continuous Trust and Attestation, and S2/S3 physical actuation also matter. Dynamic Identity supplies selected inputs; the base case does not independently exercise Discovery and Cross-Border Trust. Neighbours #17 (formerly #2), #4, #6, #7 and #9 address policy conformance, federated defence, grant applicability, state continuity and principal-traceable authority. Their overlap and proposed boundaries are documented in [Annex N](annexes/RELATED_CASES.md#annex-n); no allocation is asserted as agreed.
 
+### Research method and campaign traceability
+
+UC-21 owns the selected case objective, hypothesis, scenario and acceptance criteria. Where a study uses [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), its campaign record identifies the selected UC-21 question, source versions, research object and Stage, frozen contract, comparators, runs, evidence and resulting case-level conclusion. R0/R1/R2 retain their implementation-comparison meaning. A DDS Stage is assigned by the object and adjudication reference of that study.
+
+The campaign links back to the objective it tests and forward to the evidence it produces. A later specification-selection review records which findings it uses. The [package reading route](README.md) connects the case to the method and wider architectural corpus.
+
 ## 5. Select, prepare and run one experiment
 
 Choose **one scenario S1–S6, one technology and one route R0/R1/R2**. [Section 7](#7-results-existing-coverage-and-remaining-gap) gives existing profile choices; another technology is admissible under Section 8. A single run assesses only that declared branch, not all six scenarios or a product universally.

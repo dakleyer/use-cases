@@ -143,38 +143,10 @@ El [autor de S5](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-611
 
 **Prioridad:** puente de lectura inicial de alto impacto esperado y riesgo Bajo; esfuerzo Medio por contraste entre repositorios y épocas. La precisión de trazabilidad de campañas en el caso tiene impacto Alto y riesgo Medio: debe concordar con la matriz de objetivos y plantilla RUN_RECORD antes de adoptarse como campo obligatorio. No se activan campañas, adopción canónica, cambios de Issue ni redistribución por publicar esta revisión.
 
-### Propuesta de puente humano — texto antes y texto después
+## Aplicación del puente UC-21–DDS — 12 octubre 2026
 
-Fuente actual: [README](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/README.md), blob`93a71b4ea2798dffb0aff1c138bd7b94d1da1257`. Inserción entre el párrafo de resultados S4 y Package contents. El antes coincide una vez; el después conserva completo ese contexto. Compatible con el resumen de objetivos propuesto antes en esta VNext, pero requiere conciliar la variante snapshot/rama y el campo de campañas antes de decidir la incorporación. No se impone DDS como requisito retroactivo de lectura del envío.
+Iván autoriza continuar con el recorrido UC-21→objetivos→ejercicios existentes→DDS→resultados del caso. Se incorpora exactamente la inserción de orientación entre el párrafo de resultados S4 y Package contents propuesta aquí. No se sustituye ni elimina texto previo de la fuente. La aplicación y esta actualización de estado se publican juntas.
 
-**Texto antes — completo**
+La ficha de esta propuesta aplicada, incluidos sus pares antes/después, se retira de la cola activa. Su texto completo queda en la [VNext predecesora](https://github.com/dakleyer/use-cases/blob/3856dfd100e3d124d6a873f198ae1e85a97626e0/contributions/when-controls-work-system-fails/README_VNext.md) y en custodia auténtica. Las auditorías y todas las demás propuestas de objetivos/matriz/snapshot se conservan; esas otras propuestas no se incorporaron por este cambio. Las fuentes congeladas y SHA256SUMS.txt conservan su edición anterior; no certifican esta nueva redacción de los dos lectores. No se regeneraron hashes científicos ni se declararon nuevas ejecuciones.
 
-```markdown
-Both S4 failure outcomes—unauthorized action and silent loss of the wider finding—remain separately visible. A result on only one does not establish both.
-
-## Package contents
-```
-
-**Texto después — propuesto completo**
-
-```markdown
-Both S4 failure outcomes—unauthorized action and silent loss of the wider finding—remain separately visible. A result on only one does not establish both.
-
-## The case, the research method and the wider system
-
-UC-21 defines the problem, scientific objectives, hypotheses, scenarios and case-level acceptance criteria. DDS is the research method used by studies that investigate selected questions from this case and from other cases. A campaign connects a particular UC-21 objective and scenario to a frozen research contract, executions, evidence and conclusions. Its results return to the selected case question and can inform a subsequent specification-selection review.
-
-| What you want to understand | Where to read |
-|---|---|
-| The case, its objectives, claims and R0/R1/R2 comparisons | [Main case](USE_CASE.md), [hypotheses](annexes/HYPOTHESES.md) and [recurrence protocol](annexes/RECURRENCE_PROTOCOL.md) |
-| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |
-| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md) |
-
-The [existing S5 research discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6109154445) connects this case to a Simplified DDS Stage A exercise. The [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) describes an optional follow-up with its own scope decision. These links preserve the existing exercises and identify proposed work. UC-21 R0/R1/R2 are comparison routes; DDS A/B/C distinguish research objects. Their relationship is recorded for each study.
-
-The [submitted reading snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) retains its original files. Follow-up work identifies the source versions it actually uses.
-
-## Package contents
-```
-
-Estado: propuesta, sin incorporar. [Caso VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE_VNext.md) contiene el extremo de la trazabilidad; [EP VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) explica el conjunto y [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) su uso por el método.
+El README y USE_CASE de la rama ya conectan caso, método y corpus arquitectónico. La Issue UC-21 sigue apuntando al envío congelado; su enlace de seguimiento requiere una decisión específica posterior. No se cambia la entrada externa, el snapshot o main use-cases por esta aplicación. Stage A/B/C, R0/R1/R2, criterios del caso, anexos y resultados permanecen iguales.
