@@ -194,3 +194,45 @@ The submitted snapshot above remains intact. The follow-up retains each study's 
 ```
 
 Las versiones previas de la propuesta de entrada quedan en el [historial](https://github.com/dakleyer/use-cases/blob/708faa56d4a664ba1617562c0453d54947528fc2/contributions/when-controls-work-system-fails/README_VNext.md). Las hipótesis y propuestas científicas no aplicadas permanecen en sus expedientes.
+
+
+## Tanda 2 — inventario de rutas, versiones y dependencias · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván confirma que «no cambiar nada» significa conservar la información: autoriza continuar las ayudas de navegación, sin borrar contenido. El UC-21 en PDF y su entrada pública quedan para el final. La ruta de trabajo sigue UC-21 → objetivos → Challenges → DDS → campañas → resultados.
+
+Se obtuvieron los árboles completos y los bytes de los cortes Contributions `af344bd93d8e0ae0e9912dbc08055ded3b25cd25` (2.200 archivos) y rama UC-21 `aafc9a49346a7b2030563d3b8c1bde51de3c6446` (77 archivos). Cada uno de los 2.277 blobs se cotejó contra su identidad Git. Se extrajeron enlaces Markdown de las 967 páginas de Contributions y las 38 de la rama del caso; el análisis distingue documentos actuales, VNext y archivos preservados. Las rutas explícitas y fragmentos examinados en los Markdown actuales resolvieron; no se extiende ese resultado a todos los enlaces web, comandos o formatos de manifiesto.
+
+La lectura humana detecta 19 documentos actuales sin enlace Markdown entrante: dos documentos del diagnóstico, un perfil FG-TIDA, cuatro guías de la segunda serie, tres guías/recapitulaciones compartidas y nueve explicaciones de coste/tipos. Las nueve últimas ya están referidas por los registros JSON; falta acceso directo para el lector. Se añaden tres accesos desde el índice DDS y dieciséis desde el índice de extensiones. La modificación es navegación, no una nueva prueba científica.
+
+Los trece CURRENT_STUDY_RECORD conservan su pregunta y Stage A/Simplified. Se comprobaron 186 referencias de archivo explícitas dentro de esos registros, con cero ausentes. Se verificaron 173 bindings SHA-256 de los mapas `files` de FREEZE/MANIFEST en extensiones, sin divergencias en ese alcance, y los cinco blobs del instrumento diagnóstico v0.2 coinciden con su freeze. El perfil FG-TIDA v0.2 consume expresamente el diagnóstico v0.1: se explica esa relación, sin reemplazar su dependencia por v0.2 o v0.3.
+
+La custodia de 92 copias al pin409bfa9 sigue identificando su origen auténtico. En el receptor actual, 70 permanecen idénticas y 22 evolucionaron: 16 documentos y seis revisiones. Se cotejaron las diferencias documentales: lectura A/B/C, sucesores coste/tipos y aclaraciones de resultados, sin convertir las copias en campañas independientes. Las 16 fuentes correspondientes en feasibility mantienen sus blobs originales. Las seis VNext tienen evolución propia; no se abre otro expediente ni se declara independencia por duplicación.
+
+Se verificaron los árboles de 39 referencias históricas de estos dos repositorios, recuperando cada destino citado por Markdown actual. Incluyen el envío UC-21 aec08fb5, la custodia409bfa9 y el paquete S5 en2c7f545, ausente del main actual. La existencia y ubicación del paquete S5 están comprobadas; su ZIP no se ejecutó aquí. Los enlaces externos de otros propietarios mantienen sus versiones y quedan para la revisión de las relaciones materiales, sin asimilarlos a archivos del head.
+
+**Prioridad Primera; impacto Alto; riesgo Bajo para estas adiciones; esfuerzo Medio.** Beneficio: el lector llega a guías, evidencia y versiones sin depender de claves JSON o de adivinar carpetas. Riesgo concreto: confundir un documento actualizado con el input de un run; se conserva el pin/freeze y se explica la distinción. Coste: lectura de los materiales identificados, cotejo de destinos y mantenimiento de tres pequeñas adiciones. La auditoría de identidad no cierra las pasadas científicas ni las tandas 3–6.
+
+El [plan común](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) sigue fijando el orden. No se reubica, renombra o elimina un archivo; el contenido previo se conserva byte por byte. Los before/after completos se registran en las VNext propietarias antes de incorporar las adiciones. La ficha aplicada se retira de la cola activa y permanece en Git history.
+
+### Plan quirúrgico de la tanda 2 — Acceso completo al paquete y distinción de envío versus lectura vigente
+
+Fuente vigente: `contributions/when-controls-work-system-fails/README.md`, commit `aafc9a49346a7b2030563d3b8c1bde51de3c6446`, blob `6ecd4432b525fbfe1413ce51441780c8a36022c5`. Ubicación: inmediatamente después del último párrafo existente, sin sustituirlo. Instrucción de Iván: continuar la siguiente tanda, mejorar navegación y conservar toda la información; PDF al final. Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; dependencia: destinos existentes, freeze y fuente literal comprobados. Estado: preparado y autorizado para incorporar esta adición; no aplicado todavía en esta versión.
+
+**Texto antes — viejo literal y completo del contexto final**
+
+````markdown
+The [submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) keeps the original package, counts and integrity manifest. This reader edition adds navigation. For S6, the maintained branch uses the existing scenario adapter to its identified 00J sources; an actual run pins the editions it consumes.
+````
+
+**Texto después — contexto íntegro seguido de la adición completa**
+
+````markdown
+The [submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) keeps the original package, counts and integrity manifest. This reader edition adds navigation. For S6, the maintained branch uses the existing scenario adapter to its identified 00J sources; an actual run pins the editions it consumes.
+
+
+## Package versions and complete file access
+
+The [maintained case package](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.
+
+For the submitted edition, use the [original package and integrity snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails). SHA256SUMS.txt retains its original snapshot meaning; the later reader additions are identified by Git commits. A DDS study or external S5 exercise records the version it consumed and retains its own results. The [existing case review](README_VNext.md) connects this inventory to the incremental navigation plan.
+````
