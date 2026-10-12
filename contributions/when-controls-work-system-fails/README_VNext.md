@@ -214,32 +214,16 @@ Se verificaron los árboles de 39 referencias históricas de estos dos repositor
 
 El [plan común](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) sigue fijando el orden. No se reubica, renombra o elimina un archivo; el contenido previo se conserva byte por byte. Los before/after completos se registran en las VNext propietarias antes de incorporar las adiciones. La ficha aplicada se retira de la cola activa y permanece en Git history.
 
-### Plan quirúrgico de la tanda 2 — Acceso completo al paquete y distinción de envío versus lectura vigente
-
-Fuente vigente: `contributions/when-controls-work-system-fails/README.md`, commit `aafc9a49346a7b2030563d3b8c1bde51de3c6446`, blob `6ecd4432b525fbfe1413ce51441780c8a36022c5`. Ubicación: inmediatamente después del último párrafo existente, sin sustituirlo. Instrucción de Iván: continuar la siguiente tanda, mejorar navegación y conservar toda la información; PDF al final. Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; dependencia: destinos existentes, freeze y fuente literal comprobados. Estado: preparado y autorizado para incorporar esta adición; no aplicado todavía en esta versión.
-
-**Texto antes — viejo literal y completo del contexto final**
-
-````markdown
-The [submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) keeps the original package, counts and integrity manifest. This reader edition adds navigation. For S6, the maintained branch uses the existing scenario adapter to its identified 00J sources; an actual run pins the editions it consumes.
-````
-
-**Texto después — contexto íntegro seguido de la adición completa**
-
-````markdown
-The [submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) keeps the original package, counts and integrity manifest. This reader edition adds navigation. For S6, the maintained branch uses the existing scenario adapter to its identified 00J sources; an actual run pins the editions it consumes.
-
-
-## Package versions and complete file access
-
-The [maintained case package](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.
-
-For the submitted edition, use the [original package and integrity snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails). SHA256SUMS.txt retains its original snapshot meaning; the later reader additions are identified by Git commits. A DDS study or external S5 exercise records the version it consumed and retains its own results. The [existing case review](README_VNext.md) connects this inventory to the incremental navigation plan.
-````
-
 
 ## Estado publicado de la tanda 2 — adiciones pendientes de incorporación
 
 La auditoría de inventario y los pares literales están publicados el12octubre2026. La comprobación abarca los2.277blobs del corte, rutas Markdown y las dependencias especificadas en esta entrada. Las tres ayudas de navegación están preparadas; todavía no se han añadido a los lectores originales.
 
 La revisión automática rechazó el commit de incorporación porque interpreta la restricción anterior como permiso exclusivo para VNext. Iván aclaró en esta conversación que conservar significa no borrar información; se solicitó confirmar por nombre las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Mientras llega esa decisión, los originales mantienen sus blobs y los pares siguen pendientes, sin marcarse aplicados. El PDF y la entrada externa quedan para el final. La revisión documental y las siguientes lecturas pueden continuar.
+
+
+## Tanda 2 aplicada — decisión concreta de Iván, 12 octubre 2026
+
+Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
+
+Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/use-cases/blob/7b9df0c366ab0f0ee81bae0d7de0e06a0a8a780b/contributions/when-controls-work-system-fails/README_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.
