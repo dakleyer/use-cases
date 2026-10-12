@@ -308,85 +308,70 @@ La [propuesta UC-4 ↔ UC-21](https://github.com/FG-TIDA/use-cases/issues/21#iss
 
 ### Cambio 78 — Distinguir el inventario histórico de la lectura actual
 
-**Fuente:** `contributions/when-controls-work-system-fails/README.md`, repositorio `dakleyer/use-cases`, commit `e9efbda5e0cc002793a4df82484a6b3f47a79976`, blob `8e5a0d7be914dd514c212eb4ceb294eb7e1de7bf`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Bajo. **Prioridad:** Primera.
-
-**Beneficio concreto:** El paquete de54archivos permanece accesible en su corte y main se identifica como entrada vigente.
-
-**Riesgo concreto:** Confundir la edición actual con el manifest firmado/congelado; mantener SHA256SUMS y el enlace aec 08fb5 sin cambios.
-
-**Lectura/validación/mantenimiento:** Un párrafo y una guía corta; confirmar 54 rutas actuales y el fragmento de objetivos.
-
-**Dependencias y orden:** Sin dependencia de incorporación nueva; conservar snapshot y contextos existentes. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
-
-#### Pasaje 1 de 1
-
-**Texto antes — viejo literal completo**
-
-````markdown
-The [maintained case package](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.
-````
-
-**Texto después — propuesto completo**
-
-````markdown
-The [package inventory snapshot](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.
-
-For current reading, open the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails) and its [case objectives](USE_CASE.md#11-research-objectives-and-evidence). The inventory above records its cited earlier commit; main contains the subsequently approved reader updates. The submitted snapshot and each study's frozen inputs retain their own version.
-````
-
-**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
+**Aplicado en main — autorización de Iván, 12 octubre 2026.** Cambio 78 incorporado y fuera de pendientes. El par completo y su ficha anterior se conservan en el predecessor Git de esta aplicación.
 
 ### Cambio 82 — Enlazar el nuevo ciclo bidireccional propuesto UC4–UC21
 
-**Fuente:** `contributions/when-controls-work-system-fails/README.md`, repositorio `dakleyer/use-cases`, commit `e9efbda5e0cc002793a4df82484a6b3f47a79976`, blob `8e5a0d7be914dd514c212eb4ceb294eb7e1de7bf`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Bajo. **Prioridad:** Primera.
-
-**Beneficio concreto:** La discusión pública reciente queda dentro de la ruta del caso; distingue resultado original, aplicabilidad posterior y retorno a un control candidato.
-
-**Riesgo concreto:** Presentar la propuesta como un experimento ya registrado o adopción deEA/CDA; conservar la naturaleza propuesta y los límites observacionales.
-
-**Lectura/validación/mantenimiento:** Una fila de lectura; revisar el comentario completo, fuente/fecha y contratos de ambos receptores.
-
-**Dependencias y orden:** Cambios 78, 81. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
-
-#### Pasaje 1 de 1
-
-**Texto antes — viejo literal completo**
-
-````markdown
-| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |
-````
-
-**Texto después — propuesto completo**
-
-````markdown
-| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |
-| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997). A source determination and its conditions inform the receiving-decision question; a bounded finding may return as a candidate control for a separately registered test. Its Steps A–F describe the proposed feedback sequence, independently of DDS Stages A/B/C. Existing control success and unresolved observation limits remain valid findings. |
-````
-
-**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
+**Aplicado en main — autorización de Iván, 12 octubre 2026.** Cambio 82 incorporado y fuera de pendientes. El par completo y su ficha anterior se conservan en el predecessor Git de esta aplicación.
 
 
-### Adición de conservación autorizada — UC-21: archivos de trabajo adicionales al final
 
-Iván autoriza completar la migración conservando contenidos, enlaces y materiales fuera de la ruta central. Fuente `contributions/when-controls-work-system-fails/README.md`, commit `d7a3b1c1f7e05f0097e1c27885cfc0a3508e8130`. Se añade sólo el bloque mostrado al final; el viejo contexto y todos sus bytes se conservan. La hoja adicional no crea otro nivel de navegación canónica.
+## Migración conservadora completada en los repositorios — 12 octubre 2026
+
+Iván autoriza completar la migración y preservar toda la información y sus rutas. Se incorporan los seis cambios77–82 mediante sus trece pasajes exactos, con nueve enlaces de orientación actualizados y sus referencias anteriores conservadas. No se mueve ni renombra ningún archivo. Las fuentes mantienen todo el contenido fuera de esos pasajes; los anexos añadidos son bloques al final.
+
+El cotejo encontró dos archivos históricos del paquete S5 que ya faltaban de main antes de esta tanda: README y ZIP. Ambos vuelven a sus rutas originales con los mismos blobs del commit2c7f545. El ZIP conserva123.884bytes y SHA2569ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8; sus25miembros pasan comprobación CRC, sin ejecutar scripts. La restauración se presenta en la hoja adicional EA, con su edición y finalidad histórica. El paquete v0.1.3 de Steven y sus límites posteriores mantienen su propio registro.
+
+El README UC-21 añade al final acceso a todos los archivos de su paquete, los materiales de envío y los archivos de trabajo del registro. El anexo adicional EA enlaza el soporte compartido, los originales R01 y la historia de revisión. Las tres hojas auxiliares EA/RA/MSCA mantienen su organización; no se crea una colección de índices ni niveles nuevos. El envío aec08fb5, los freezes y los resultados siguen con sus identidades.
+
+La edición de la Issue pública #21 se mantiene separada: la revisión automática rechazó la nueva adición al cuerpo por exigir aprobación literal del texto externo y señalar el bloqueo previo403. La lectura de vuelta comprobó cuerpo, título y estado intactos. El navegador también falló al inicializar sus assets; no se intentó otro medio de escritura. El bloque exacto se publica en la VNext de README UC-21 para una decisión concreta. No hay PDF UC-21 en los árboles actuales de estos dos repositorios; no se fabrica ni sustituye uno como parte de esta migración.
+
+## Entrada pública FG-TIDA — adición exacta pendiente de aprobación literal
+
+Destino: [Issue #21](https://github.com/FG-TIDA/use-cases/issues/21). Fuente leída el12octubre2026, updated_at `2026-10-12T16:04:59Z`. Tipo: adición después del final actual. El cuerpo completo anterior se preservaría como prefijo exacto; no se alteraría título, estado, labels, participantes o comentarios. Beneficio: llegar desde la entrada real al paquete mantenido y al método. Riesgo: confundir envío congelado con edición posterior; el texto distingue ambos. La acción fue rechazada por revisión automática; no aplicada.
 
 **Texto antes — contexto final literal completo**
 
 ````markdown
-For source reading, S3's retained submission redirects to maintained 00G; S6 is already an adapter to 00J. The 00H link above selects the v0.5 working successor, including both preservation and authority outcomes. Original package and frozen-study editions keep the versions they cite. The nine technology profiles describe twenty-seven comparison positions; an executed study is identified by its own registration and results.
+
+- [x] Dataset — synthetic fixture facts and one machine-readable D1 fixture; no measured production dataset
+- [x] Code — inspectable state-machine/trace design skeletons; no deployed implementation
+- [x] Protocol — preparation, three routes, gates, measurement and refutation/admission procedures
+- [x] Other: eleven scenario SVG figures, three reading aids in SVG and PNG, and full extensionality/hypothesis annexes
+
+**IP notes:** As in Section 9. Historical archives and editorial verification records are not submission assets and are not included in this publication directory.
+
 ````
 
-**Texto después — contexto conservado y adición completa**
+**Texto después — contexto íntegro y adición completa**
 
 ````markdown
-For source reading, S3's retained submission redirects to maintained 00G; S6 is already an adapter to 00J. The 00H link above selects the v0.5 working successor, including both preservation and authority outcomes. Original package and frozen-study editions keep the versions they cite. The nine technology profiles describe twenty-seven comparison positions; an executed study is identified by its own registration and results.
+
+- [x] Dataset — synthetic fixture facts and one machine-readable D1 fixture; no measured production dataset
+- [x] Code — inspectable state-machine/trace design skeletons; no deployed implementation
+- [x] Protocol — preparation, three routes, gates, measurement and refutation/admission procedures
+- [x] Other: eleven scenario SVG figures, three reading aids in SVG and PNG, and full extensionality/hypothesis annexes
+
+**IP notes:** As in Section 9. Historical archives and editorial verification records are not submission assets and are not included in this publication directory.
 
 
-## Additional working files and preserved material
+## Maintained reading route — 12 October 2026
 
-The [complete current package](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails) includes the original figures, JSON fixtures, templates and review workspaces. The [submitted package](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) retains its original reading edition and integrity snapshot.
+The submitted snapshot linked above preserves the original case and its annexes. For the maintained reader edition, follow **UC-21 → objectives → Challenges → DDS → campaigns → results**:
 
-For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.
+- [Current UC-21 package and Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md).
+- [Case objectives and evidence](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#11-research-objectives-and-evidence).
+- [DDS method, recorded work and owning reports](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#15-recorded-work-and-its-owning-reports).
+
+Each study retains its registered question, source edition, freeze, runs and conclusions. The original submission and every previous link remain available above.
 
 ````
 
+La única diferencia autorizable es el bloque añadido mostrado. Requiere aprobación concreta de Iván sobre este destino y texto; el acceso de escritura al repositorioFG-TIDA deberá estar disponible. Los originales de ambos repositorios ya se conservan por separado.
+
+
+### Adición de conservación autorizada — UC-21: archivos de trabajo adicionales al final
+
+**Aplicada con la migración.** Se conserva el contexto íntegro y se añade únicamente el bloque final de acceso opcional. Los pares literales completos están en el predecessor publicado `ce3c666e3219aa11f7b4d38b9be068af7874dd5d`; salen de pendientes tras incorporación.
+
+Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas enlazadas;2.006destinos anteriores conservados en los cinco documentos intervenidos;13sustituciones inversas exactas, cero cambios fuera de alcance; README/ZIP históricos restaurados idénticos. El detalle permanece en EP VNext.
