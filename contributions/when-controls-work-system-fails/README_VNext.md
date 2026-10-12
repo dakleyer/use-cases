@@ -173,3 +173,78 @@ La rama contiene ya el puente en [la edición aplicada](https://github.com/dakle
 ```
 
 No se cambia título, sectores, requisitos, anexos, comentarios ni estado de la Issue por esta propuesta.
+
+
+## Tanda 1: objetivos y acceso a trabajo publicado — 12 octubre 2026
+
+**Comprobación terminológica previa.** Se leyeron UC-21 Conventions/Extensionality, DDS A §3/§6/§10A, DDS B/C, R01, el protocolo de extensiones, kernel E1–E7, HEW Technical Report, DBC, 00D, Requirements y los índices RA/MSCA pertinentes. La búsqueda pública de usos complementó esas lecturas; no equivale a leer cada documento histórico. Challenge define problema/familia; el escenario delimitado lo instancia. UC-21 mantiene S1–S6 y sus familias 00E–00J. HEW usa escenario como descripción humana con instancia formal. Campaña de investigación, campaña operativa de S4 y unidad de campaña R01 no son intercambiables. Ejercicio se usa como entrada de lectura para estudios/recorridos existentes, no como nuevo tipo normativo. A/B/C DDS, A–D causales, A/B/C/D epistemológicos, R0/R1/R2 UC-21 y R01-R1/R2/R3 siguen con sus fuentes. La adición inicial que identificaba escenario con problema se corrigió antes de publicarse.
+
+Se reunieron las preguntas ya presentes en USE_CASE, H/HR/HS y Evidence. Esta edición no adopta etiquetas EO ni altera hipótesis. El acceso a estudio S5 externo identifica v0.1.3 y su commit; su propuesta de cierre es del autor, no un cierre conjunto. 00I-STATEFUL queda como compañero sintético distinto; S4/CDA como follow-up propuesto. La entrada de Issue se añade tras publicar esta edición, manteniendo el envío. [EP VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) recoge las seis tandas. Estado: autorizado para ejecutar; aplicación aún no realizada en esta revisión.
+
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+
+### Adición 1 — contributions/when-controls-work-system-fails/README.md
+
+Contexto único contra blob `5dc4714aa633672765ebdcfe78ab3f321a7e8c73`. Impacto Alto; riesgo Bajo; esfuerzo Medio. Adición de lectura autorizada por Iván; las hipótesis, contratos y resultados anteriores se conservan.
+
+**Texto antes — contexto vigente completo**
+
+```
+## Start here
+```
+
+**Texto después — contexto y bloque a añadir completos**
+
+```
+## Research objectives
+
+UC-21 asks five related questions. Each study selects its question before choosing the scenario, technology and comparison route.
+
+| Objective | What the study seeks to establish | Governing source |
+|---|---|---|
+| Decision correctness and legitimate continuity | Whether the selected configuration meets the scenario's decision, authority, effect and timing conditions while allowing justified activity. | [Case acceptance plans](USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) |
+| Effectiveness of existing controls | Whether a competent conventional configuration, including the reinforced R1, corrects the selected failure. Successful existing defences receive credit. | [R0/R1/R2 comparisons](USE_CASE.md#5-select-prepare-and-run-one-experiment) |
+| Recurrence after correction | Whether an admitted material change brings back the same failure while the successfully corrected R1 and its adaptation remain active. | [HR recurrence protocol](annexes/RECURRENCE_PROTOCOL.md#annex-r) |
+| Common causal pathway | Whether an admissible transfer, qualification-loss, material-change and reuse pathway can produce the independently defined failure in each declared family. | [HC causal protocol](annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |
+| Sufficient common response | Whether a declared communication-and-processing mechanism provides timely warning and authorized response while preserving legitimate activity across its registered scope. | [HS response protocol](annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |
+
+[H1–H6](annexes/HYPOTHESES.md#8-the-six-canonical-hypotheses-and-their-refutation-tests) supply additional, separately selected contrasts. The [claim-selection guide](annexes/HYPOTHESES.md#13-claim-selection) and [run record](templates/RUN_RECORD.md) keep a case outcome separate from the hypothesis conclusion.
+
+## Start here
+```
+
+### Adición 2 — contributions/when-controls-work-system-fails/README.md
+
+Contexto único contra blob `5dc4714aa633672765ebdcfe78ab3f321a7e8c73`. Impacto Alto; riesgo Bajo; esfuerzo Medio. Adición de lectura autorizada por Iván; las hipótesis, contratos y resultados anteriores se conservan.
+
+**Texto antes — contexto vigente completo**
+
+```
+Contributor: **The Integral Management Society / Tegrity.AI**. Contact: **Iván Abril Palma — ivan.abril@tegrity.ai**. This is a public contributor draft, not an adopted FG-TIDA standard. Original authorship and applicable source terms remain in force. Principles, specification traceability and historical preservation records are separate deliverables and are not included as case annexes here.
+
+```
+
+**Texto después — contexto y bloque a añadir completos**
+
+```
+Contributor: **The Integral Management Society / Tegrity.AI**. Contact: **Iván Abril Palma — ivan.abril@tegrity.ai**. This is a public contributor draft, not an adopted FG-TIDA standard. Original authorship and applicable source terms remain in force. Principles, specification traceability and historical preservation records are separate deliverables and are not included as case annexes here.
+
+
+## Challenges, evaluation scenarios and recorded work
+
+**Reading update — 12 October 2026.** UC-21's six failure families are the Challenges in this reader route; their original S1–S6 scenario labels and 00E–00J source mappings remain intact. Within DDS, an evaluation scenario relates a Challenge to a specified technology/configuration and declared conditions. The source method separately records the bounded base scenario and the technology mapping. Consult the [case conventions](annexes/CONVENTIONS.md), [DDS Challenge definition](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#3-challenge-first) and [DDS profiles, traversals and campaigns](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#6-segments-trajectory-gates-traversals-and-traces). A research campaign retains its distinction from the business campaigns in S4 and R01's campaign accounting unit.
+
+| Work to inspect | Published entry and state |
+|---|---|
+| UC-21 scenarios S1–S6, technology profiles and proposed causal/response trials | [Complete annex index](annexes/README.md), [hypotheses](annexes/HYPOTHESES.md) and [recurrence protocol](annexes/RECURRENCE_PROTOCOL.md). This package defines documentary profiles and proposed experiments. |
+| Existing S5 external exercise | [Version-pinned S5 study](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md) and [UC-21 scope reconciliation](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). Executable local evidence covers its selected supplied-model branches; the author recommends scoped closure. |
+| Existing S5 stateful companion | [00I-STATEFUL report](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md). Separately executed synthetic state/effect and local recovery evidence. |
+| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |
+| Reductions, extensions and reusable instruments | [DDS reading route](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md#11-reader-route-from-cases-to-studies-and-results), including R01, extension methods, oracle/harness and the existing study reports. |
+
+Start with the objective and source version of the selected exercise. Then follow its registration, frozen inputs, code, observed results and report. A study from another case retains its own question and evidence; linking it here creates a research route.
+
+The [submitted snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails) keeps the original package, counts and integrity manifest. This reader edition adds navigation. For S6, the maintained branch uses the existing scenario adapter to its identified 00J sources; an actual run pins the editions it consumes.
+
+```

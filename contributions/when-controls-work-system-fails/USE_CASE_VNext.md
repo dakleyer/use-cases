@@ -145,3 +145,43 @@ Iván autoriza continuar con el recorrido UC-21→objetivos→ejercicios existen
 La ficha de esta propuesta aplicada, incluidos sus pares antes/después, se retira de la cola activa. Su texto completo queda en la [VNext predecesora](https://github.com/dakleyer/use-cases/blob/3856dfd100e3d124d6a873f198ae1e85a97626e0/contributions/when-controls-work-system-fails/USE_CASE_VNext.md) y en custodia auténtica. Las auditorías y todas las demás propuestas de objetivos/matriz/snapshot se conservan; esas otras propuestas no se incorporaron por este cambio. Las fuentes congeladas y SHA256SUMS.txt conservan su edición anterior; no certifican esta nueva redacción de los dos lectores. No se regeneraron hashes científicos ni se declararon nuevas ejecuciones.
 
 El README y USE_CASE de la rama ya conectan caso, método y corpus arquitectónico. La Issue UC-21 sigue apuntando al envío congelado; su enlace de seguimiento requiere una decisión específica posterior. No se cambia la entrada externa, el snapshot o main use-cases por esta aplicación. Stage A/B/C, R0/R1/R2, criterios del caso, anexos y resultados permanecen iguales.
+
+
+## Tanda 1: lectura de objetivos con sus protocolos — 12 octubre 2026
+
+**Comprobación terminológica previa.** Se leyeron UC-21 Conventions/Extensionality, DDS A §3/§6/§10A, DDS B/C, R01, el protocolo de extensiones, kernel E1–E7, HEW Technical Report, DBC, 00D, Requirements y los índices RA/MSCA pertinentes. La búsqueda pública de usos complementó esas lecturas; no equivale a leer cada documento histórico. Challenge define problema/familia; el escenario delimitado lo instancia. UC-21 mantiene S1–S6 y sus familias 00E–00J. HEW usa escenario como descripción humana con instancia formal. Campaña de investigación, campaña operativa de S4 y unidad de campaña R01 no son intercambiables. Ejercicio se usa como entrada de lectura para estudios/recorridos existentes, no como nuevo tipo normativo. A/B/C DDS, A–D causales, A/B/C/D epistemológicos, R0/R1/R2 UC-21 y R01-R1/R2/R3 siguen con sus fuentes. La adición inicial que identificaba escenario con problema se corrigió antes de publicarse.
+
+La matriz añadida resume cinco preguntas actuales y sus fuentes. Se selecciona objetivo/claim antes de escenario/route; una conclusión vuelve a ese objetivo. HR conserva R1 corregida antes de R2; HC exige witness admisible por familia y ambos outcomes S4; HS conserva warning/response, continuidad y budget. H1–H6 siguen como contrastes separados. La variante de lectura no obliga a campos EO en la plantilla, no define causalidad exclusiva ni minimalidad. Los anexos y sus fórmulas no cambian. [README VNext](README_VNext.md) y [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) son los extremos de navegación. Estado: autorizado; fuente aún intacta en esta revisión.
+
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+
+### Adición 1 — contributions/when-controls-work-system-fails/USE_CASE.md
+
+Contexto único contra blob `f26a223bd73558e9c99cb16d0ebb6fc824f59436`. Impacto Alto; riesgo Medio; esfuerzo Medio. Adición de lectura autorizada por Iván; las hipótesis, contratos y resultados anteriores se conservan.
+
+**Texto antes — contexto vigente completo**
+
+```
+## 2. The situation and six scenarios
+```
+
+**Texto después — contexto y bloque a añadir completos**
+
+```
+### 1.1 Research objectives and evidence
+
+Select the scientific question first, then its scenario, configuration, comparison and evidence contract.
+
+| Objective | Question and expected evidence | Protocol |
+|---|---|---|
+| Correct decision and legitimate continuity | Does the selected configuration satisfy the scenario's applicable gates and permit justified work? Report the decision, actual effect, timing and burden. | [Case quality plans](#6-six-quality-plans-visible-acceptance-criteria) |
+| Effective existing defences | Can a competent ordinary or reinforced configuration correct the failure? Record its actual controls and credit successful conventional solutions. | [R0/R1 comparison](#5-select-prepare-and-run-one-experiment) |
+| Corrected-baseline recurrence | After demonstrated R1 correction, can an admitted observable material change reproduce the same failure with that configuration and its defences retained? | [HR](annexes/RECURRENCE_PROTOCOL.md#annex-r) |
+| Common causal sufficiency | Can each declared family supply an admitted causal witness for the proposed transfer/loss/change/reuse pathway, with an independent failure outcome and matched causal controls? | [HC](annexes/HYPOTHESES.md#2-the-principal-hypothesis-of-causal-sufficiency) |
+| Sufficient common response | Does the selected communication-and-processing candidate provide timely warning and an authorized effective response while preserving legitimate activity? | [HS](annexes/HYPOTHESES.md#9a-the-hypothesis-of-a-sufficient-common-response) |
+
+Use [claim selection](annexes/HYPOTHESES.md#13-claim-selection) for HC, HR, HS and individual H1–H6 contrasts. Preserve both S4 outcomes when claiming its full family: unauthorized action and loss of the wider finding. Each conclusion identifies its tested objective and scope. The [current reader guide](README.md#challenges-evaluation-scenarios-and-recorded-work) connects these questions to prepared work, executed exercises, DDS and their records.
+
+## 2. The situation and six scenarios
+```
