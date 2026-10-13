@@ -375,3 +375,282 @@ La única diferencia autorizable es el bloque añadido mostrado. Requiere aproba
 **Aplicada con la migración.** Se conserva el contexto íntegro y se añade únicamente el bloque final de acceso opcional. Los pares literales completos están en el predecessor publicado `ce3c666e3219aa11f7b4d38b9be068af7874dd5d`; salen de pendientes tras incorporación.
 
 Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas enlazadas;2.006destinos anteriores conservados en los cinco documentos intervenidos;13sustituciones inversas exactas, cero cambios fuera de alcance; README/ZIP históricos restaurados idénticos. El detalle permanece en EP VNext.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+**Preparación solicitada por Iván. Fuentes canónicas y entrada externa intactas.**
+
+FG-TIDA: índice de casos → Issue #21 → UC-21 → objetivos → Challenges → DDS → campañas/estudios → resultados → siguientes decisiones.
+
+### Presentación de conjunto
+
+UC-21 aporta el caso y sus preguntas: decisión correcta y continuidad legítima; controles existentes eficaces; recurrencia después de corregir R1; mecanismo causal común; y respuesta común suficiente. HC, HR, HS y los contrastes H1–H6 conservan sus protocolos. Las seis familias son Challenges en la guía; sus S1–S6, fuentes 00E–00J y rutas originales permanecen. El escenario DDS aplica una tecnología/configuración bajo condiciones delimitadas.
+
+DDS aporta el método. Sus etapas A/B/C se distinguen por objeto y referencia; las rutas de comparación UC-21 R0/R1/R2 permanecen independientes de esos nombres. Cada estudio enlaza registro, versión, freeze, ejecución, evidencia y conclusión; un catálogo de archivos no sustituye esos resultados.
+
+Hay trabajo real que ya puede recorrerse: la contribución S5 con alcance de modelo corregido, su auditoría preservada y el compañero sintético 00I-STATEFUL; los estudios e informes reutilizables bajo sus propios contratos; y el código CDA v0.1.3 publicado por su autor, todavía sujeto a la revisión que corresponda al experimento seleccionado. Los trece estudios locales no se agregan como si fueran una campaña UC-21.
+
+El seguimiento UC-4/CDA se prepara como colaboración seleccionada por pregunta. Nelson conserva el ciclo experimental UC-4 descrito en su comentario. En paralelo pueden prepararse el Challenge R2, comparadores, contrapruebas y revisión Stage A; ejecutar R2 requiere R1 demostrada y congelada. Diseño abierto, ejecución/verificación independiente y selección posterior de especificaciones se separan. La vacante de verificación sigue abierta; el texto no nombra un nuevo titular.
+
+Flores / Theme #21 mantiene su expediente DDS propio y su estado de preparación. No es la Issue de caso UC-21 pese a compartir el número 21. La raíz enlaza el registro de desarrollo como lectura relacionada, sin atribuir esa campaña al caso.
+### Qué se volvió a leer y qué cambió
+
+Revisión documental por Codex, mismo asistente, 13 octubre 2026. Fuentes: raíz y paquete UC-21 en use-cases `0d32667ccce1dd3e568459a64a89e83987d92d4e`; Contributions `fc90cdc78e8c593ddb848f988962e27b00f00c93`; README de FG-TIDA `5ae72ac3094a2712d8b9b75d11bbb928b6859fe6`. Se consultaron la Issue y sus 36 comentarios; updated_at de la Issue `2026-10-13T10:36:49Z` no se toma como fecha de modificación de cada campo.
+
+La tabla oficial omite UC-21 aunque la Issue existe. En el fork hay una entrada de paquete al final, pero tampoco fila 21 en Submissions. El README del caso mezcla una cabecera de envío de septiembre, vínculos de integración de de677309 y navegación mantenida posterior. Sus objetivos, Challenges y acceso completo ya funcionan: se mejora la entrada, no se crea otro dueño ni se repite la matriz EO descartada.
+
+La revisión anterior alcanzaba 33 comentarios. Ahora constan Nelson #6132541771, Matías #6138082870 e Iván #6143678176. Nelson delimita coordinación y colaboración opcional; Matías informa su candidato y sus controles; Iván propone secuencia paralela y separación de funciones. La lectura del tag CDA v0.1.3 resolvió el commit `7b6b24d416bf78a7e2599ccda932745ebe839fff`; se leyó su README. No se ejecutó su software ni se verificaron independientemente los conteos que comunica el autor.
+
+La recomendación S5 de Zhao #6115830369 sigue siendo cierre al alcance evidenciado del modelo. Se conserva ese resultado y las hipótesis upstream; no se reabre su ejercicio por el solo hecho de preparar una colaboración. El puente R01 mantiene R01-BRIDGE-DRAFT: los nuevos comentarios no revisan su schema ni conceden UC4-SOURCE-REVIEWED.
+
+La Issue conserva once casillas sectoriales frente a cuatro en el formulario fuente; es una discrepancia ya documentada. Este cierre de navegación deja las casillas intactas. Una corrección o ampliación sectorial necesita la decisión específica de Iván; no impide enlazar el caso ni se resuelve copiando ciegamente el formulario.
+
+La propuesta de adición al final de la Issue del 12 de octubre sigue como historia. El candidato 90 es su alternativa vigente de presentación al principio, preparado contra el cuerpo actual. No aplicar ambos. El anterior bloqueo 403 y rechazo de revisión automática se conservan como hechos de ejecución; esta preparación no reintenta la escritura externa.
+
+### Ocho cambios concretos
+
+| ID | Cambio | Impacto | Riesgo | Esfuerzo | Orden | Estado |
+|---|---|---|---|---|---|---|
+| 83 | Dar a UC-21 una entrada directa y completa desde su raíz | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 84 | Conectar método y arquitectura actuales conservando los cortes anteriores | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 85 | Actualizar las aportaciones S4/CDA y el ciclo opcional UC-4 ↔ UC-21 | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 86 | Explicar el siguiente trabajo y quién decide cada cierre | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 87 | Dar el mismo recorrido al lector que entra directamente en USE_CASE | Alto | Bajo | Bajo | Primera | Preparado; no aplicado |
+| 88 | Conciliar en DDS las condiciones del seguimiento UC-4 / CDA | Alto | Bajo | Medio | Primera | Preparado; no aplicado |
+| 89 | Incluir UC-21 en los índices de casos | Alto | Medio | Bajo | Siguiente | Preparado; no aplicado |
+| 90 | Poner la presentación mantenida en la entrada pública de UC-21 | Alto | Medio | Bajo | Siguiente | Preparado; no aplicado |
+### Orden de incorporación y comprobación final
+
+1. Aprobar y aplicar 83–88 al paquete mantenido y al índice DDS; mantener originales fuera de cada par, enlaces anteriores, anexos, assets, fixtures y versiones. Los destinos nuevos se habilitan juntos: cabeceras 83/87 apuntan al apartado añadido por 86.
+2. Incorporar 89 al índice del fork. Para la tabla oficial, entregar el mismo par al mantenedor FG-TIDA o incorporarlo con su acceso autorizado. La fila copia el tema marcado como principal en la presentación; no afirma una asignación nueva.
+3. Incorporar 90 al cuerpo de la Issue por su propietario, con GO literal sobre el bloque. Mantener título, estado, labels, campos, casillas, comentarios y enlaces congelados. La petición actual es preparación; no se envía un comentario externo ni se cierra la Issue.
+4. Leer desde la tabla oficial y el enlace de la Issue hasta los cinco objetivos, seis Challenges, método DDS, protocolos, registro/freeze/informe y retorno. Probar también entrada directa USE_CASE, ida y vuelta desde DDS y acceso por anexos a soporte y archivos históricos.
+5. Comparar árboles y blobs contra el corte previo: ninguna ruta perdida, ningún archivo movido o renombrado; todos los destinos anteriores presentes. Comparar el cuerpo externo completo y revertir en copia cada sustitución para demostrar que fuera de lo acordado no cambia nada. Leer de vuelta todos los archivos aplicados; registrar commit, fecha y estado en las VNext y retirar cada ficha aplicada de pendientes según la instrucción de Iván, preservando auditorías y Git.
+
+El cierre documental se declara al completar ese recorrido y la conservación, incluida la entrada oficial. El cierre de cada investigación lo decide su propio contrato/evidencia: S5 al alcance evidenciado, un seguimiento CDA tras acordar ejecución y R1/R2, y especificaciones tras revisión de resultados. La revisión científica de cinco pasadas y conciliación global no se da por terminada por enlazar la raíz. El PDF UC-21 sigue sin localizarse en los dos árboles; no se incluye un reemplazo ficticio.
+
+### Plan de cambios literal — al final del expediente
+
+Los pares 87 y 88 están en sus VNext propietarias: [USE_CASE](USE_CASE_VNext.md#cierre-de-entrada-uc-21--13-octubre-2026) y [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#cierre-de-entrada-uc-21--13-octubre-2026). Los demás pares de este cierre se conservan completos a continuación.
+
+### Cambio 83 — Dar a UC-21 una entrada directa y completa desde su raíz
+
+**Impacto Alto · riesgo Bajo · esfuerzo Bajo · prioridad Primera. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: Un lector ve la edición de investigación actual y recorre objetivos, Challenges, DDS y resultados sin buscar las adiciones del final.
+
+Riesgo concreto: Mantener la versión enviada, el nombre del caso, anexos y plantilla; no cambiar labels S1–S6, gates ni resultados.
+
+Coste de lectura/validación/mantenimiento: Dos pasajes cortos; verificar navegación de cabecera y diferencia entre edición enviada y guía mantenida.
+
+Dependencias: ninguna nueva propuesta. Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.
+
+**Pasaje 1:** `dakleyer/use-cases` → `contributions/when-controls-work-system-fails/README.md`. Ubicación: Cabecera de versión, dentro del bloque inicial existente. Fuente: commit `0d32667ccce1dd3e568459a64a89e83987d92d4e`; blob `ec0a95f8166340bf009beadf6afc9e4632e34e09`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+**FG-TIDA contributor use-case draft v0.9.3 · 29 September 2026 · open to revision**
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+**FG-TIDA contributor use case · submitted draft v0.9.3, 29 September 2026 · maintained reader edition**
+````
+
+**Pasaje 2:** `dakleyer/use-cases` → `contributions/when-controls-work-system-fails/README.md`. Ubicación: Después de los tres enlaces iniciales; se conservan íntegros. Fuente: commit `0d32667ccce1dd3e568459a64a89e83987d92d4e`; blob `ec0a95f8166340bf009beadf6afc9e4632e34e09`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+**[Read the case](USE_CASE.md) · [Explore the annexes](annexes/README.md) · [Prepare a run](templates/RUN_RECORD.md)**
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+**[Read the case](USE_CASE.md) · [Explore the annexes](annexes/README.md) · [Prepare a run](templates/RUN_RECORD.md)**
+
+**Reader route:** [Objectives](#research-objectives) → [Challenges](#choose-a-challenge-and-its-evaluation-scenario) → [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) → [Recorded studies and results](#challenges-evaluation-scenarios-and-recorded-work) · [Next investigations](#next-investigations-and-evidence-decisions)
+````
+
+### Cambio 84 — Conectar método y arquitectura actuales conservando los cortes anteriores
+
+**Impacto Alto · riesgo Bajo · esfuerzo Bajo · prioridad Primera. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: La ruta principal llega al índice DDS actualizado, incluidos los estudios y el registro de desarrollo; los antiguos enlaces siguen disponibles como fuentes de la integración inicial.
+
+Riesgo concreto: Conservar las dos URI de de677309 y no convertir el corte actual en freeze de un estudio anterior.
+
+Coste de lectura/validación/mantenimiento: Dos rutas principales y sus dos precedentes; cotejar destinos y preservar URI.
+
+Dependencias: 83. Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.
+
+**Pasaje 1:** `dakleyer/use-cases` → `contributions/when-controls-work-system-fails/README.md`. Ubicación: Dos últimas filas de The case, the research method and the wider system. Fuente: commit `0d32667ccce1dd3e568459a64a89e83987d92d4e`; blob `ec0a95f8166340bf009beadf6afc9e4632e34e09`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |
+| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md) |
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+| The research method and its specification, architecture and implementation stages | [DDS method index](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) |
+| The wider architecture and its Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control contributions | [Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README.md) |
+
+Earlier integration sources remain available: [DDS method at de677309](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) and [Ecosystem Positioning at de677309](https://github.com/dakleyer/structural-awareness-contributions/blob/de677309abb674e39b811c0293f863e90310bf80/architectural-contributions/ecosystem-positioning/README.md). A registered study keeps the versions cited by its own evidence.
+````
+
+### Cambio 85 — Actualizar las aportaciones S4/CDA y el ciclo opcional UC-4 ↔ UC-21
+
+**Impacto Alto · riesgo Bajo · esfuerzo Medio · prioridad Primera. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: La entrada refleja los comentarios del 12–13 de octubre, enlaza CDA v0.1.3 y conserva el alcance de las aportaciones S5.
+
+Riesgo concreto: La disponibilidad de código y los resultados comunicados por su autor no constituyen una campaña conjunta registrada ni una validación independiente. Mantener coordinación y semánticas propias de UC-4.
+
+Coste de lectura/validación/mantenimiento: Leer los tres comentarios nuevos, identificar el commit del tag y cotejar ambas rutas receptoras.
+
+Dependencias: 84. Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.
+
+**Pasaje 1:** `dakleyer/use-cases` → `contributions/when-controls-work-system-fails/README.md`. Ubicación: Dos filas de Challenges, evaluation scenarios and recorded work; se añade la referencia CDA. Fuente: commit `0d32667ccce1dd3e568459a64a89e83987d92d4e`; blob `ec0a95f8166340bf009beadf6afc9e4632e34e09`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |
+| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997). A source determination and its conditions inform the receiving-decision question; a bounded finding may return as a candidate control for a separately registered test. Its Steps A–F describe the proposed feedback sequence, independently of DDS Stages A/B/C. Existing control success and unresolved observation limits remain valid findings. |
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753) and [UC-4 scope clarification](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771). A separately scoped follow-up after review of its R0/R1 evidence, with authority inputs, observed effects, a competent conventional comparator and agreed resources. |
+| CDA candidate for S4/S5 | [CDA v0.1.3, commit 7b6b24d](https://github.com/matiascloudarch/cognitive-decision-architecture/tree/7b6b24d416bf78a7e2599ccda932745ebe839fff) and [author's 13 October report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6138082870). Published implementation and author-reported controls available for contract and evidence review. UC-21 records the reviewed claim and tested scope separately. |
+| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997), [Nelson's experimental scope](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771) and [13 October sequence and independent-review roles](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176). CDA candidate → agreed UC-4 contract → reviewed R0/R1 evidence → validated R1 freeze → UC-21 R2 → DDS Stage A synthesis → candidate specifications. R2 preparation and Stage A review can proceed in parallel; R2 execution follows demonstrated R1 correction. Each collaboration selects its own question and scope. Existing control success and observation limits remain valid findings. |
+````
+
+### Cambio 86 — Explicar el siguiente trabajo y quién decide cada cierre
+
+**Impacto Alto · riesgo Bajo · esfuerzo Medio · prioridad Primera. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: Cada ruta tiene una siguiente acción, evidencia necesaria y decisión de cierre; diseño, ejecución/verificación y selección de especificaciones quedan separados.
+
+Riesgo concreto: No asignar a terceros ni presentar un rol abierto como cubierto; conservar S5 como resultado de modelo y CDA como candidato bajo revisión.
+
+Coste de lectura/validación/mantenimiento: Una sección final; revisar responsabilidades frente a los comentarios y distinguir cierre documental de cierre experimental.
+
+Dependencias: 85. Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.
+
+**Pasaje 1:** `dakleyer/use-cases` → `contributions/when-controls-work-system-fails/README.md`. Ubicación: Al final, después de Additional working files and preserved material. Fuente: commit `0d32667ccce1dd3e568459a64a89e83987d92d4e`; blob `ec0a95f8166340bf009beadf6afc9e4632e34e09`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+For related repository work, browse the [case-register design and reviewer tools](../../use-case-register/README.md), [their working files](https://github.com/dakleyer/use-cases/tree/main/use-case-register), and the [submission template](../../.github/ISSUE_TEMPLATE/fg-tida-use-case-proposal.md). These are repository support materials, separate from UC-21's scientific evidence. The [repository contents](https://github.com/dakleyer/use-cases/tree/main) retain the original root index, workflows and supporting files.
+
+## Next investigations and evidence decisions
+
+The [13 October UC-21 discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) identifies the next research work. Each investigation selects a question, a source edition and the evidence required to answer it.
+
+| Workstream | Next action | Evidence and closing decision |
+|---|---|---|
+| S5 supplied-model contribution | Record the supported branches, corrected v0.1.3 scope and upstream assumptions in its [source report](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/a9eca743df5a5c1fbef5dc6f792ea08f8add29e0/examples/S5-Qregister/README.md), following the [author's scoped-closure recommendation](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6115830369). | Preserve the positive, negative and limited findings; use a separate selection review for specification implications. An independently executed or wider Q0–Q6 claim requires its own evidence. |
+| CDA / optional UC-4–UC-21 investigation | Review the [pinned candidate](https://github.com/matiascloudarch/cognitive-decision-architecture/tree/7b6b24d416bf78a7e2599ccda932745ebe839fff); agree the selected S4/S5 question, implementation-neutral contract, controls and resources with the relevant contributors. | UC-4 retains its [experimental coordination and scope](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6132541771). Demonstrate and freeze the R1 correction before executing the selected R2. |
+| UC-21 R2 preparation and DDS Stage A synthesis | Prepare the contextual intervention, admissible observations, strong comparator, positive control and falsifiers; use the [run record](templates/RUN_RECORD.md) and [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). | Keep evaluation evidence, action verdict, attempted action, target acknowledgement and independently observed target state distinct. Report decision quality, legitimate continuity, timing and burden under the registered contract. |
+| Candidate specification review | Collect the reviewed findings, alternatives, successful existing controls and remaining observation limits. | Separate open test design, independent execution/verification and evidence-based specification selection. The [independent-testing role](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176) is open; record an appointment and completed work when they exist. |
+
+The [DDS development register](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/campaigns-in-development/INDEX.md) links other research preparation under the same method. Its Flores / Theme #21 dossier is a distinct research contribution, not UC-21's case identifier or an executed UC-21 campaign. Each route keeps its source owner and evidence.
+
+For the navigation changes and their exact history, consult the [restructuring audit report](https://github.com/dakleyer/structural-awareness-contributions/blob/main/governance/review/migration-audit-2026-10-13/Informe_auditable_DDS_y_corpus_sesion_2026-10-13.html) and the [case review](README_VNext.md).
+````
+
+### Cambio 89 — Incluir UC-21 en los índices de casos
+
+**Impacto Alto · riesgo Medio · esfuerzo Bajo · prioridad Siguiente. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: El lector que comienza en el registro FG-TIDA encuentra la Issue #21 en la misma tabla que los demás casos; el fork muestra la misma referencia.
+
+Riesgo concreto: El título y tema reproducen el envío; la fila no afirma asignación/adopción. La incorporación oficial depende del mantenedor FG-TIDA y de acceso autorizado.
+
+Coste de lectura/validación/mantenimiento: Una fila en cada uno de los dos índices; verificar número, título, sector general, autor y tema señalado en el envío.
+
+Dependencias: 83, 85, 86, 87, 88. GO de Iván para ambos pares. La tabla oficial requiere además la incorporación del mantenedor o permiso de escritura; preparar el parche no lo envía.
+
+**Pasaje 1:** `dakleyer/use-cases` → `README.md`. Ubicación: Última fila de Submissions, antes de Contributing. Fuente: commit `0d32667ccce1dd3e568459a64a89e83987d92d4e`; blob `5b5bee6ef408389ea997ebc7c91021372bb8e170`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |
+````
+
+**Pasaje 2:** `FG-TIDA/use-cases` → `README.md`. Ubicación: Última fila de Submissions, antes de Contributing. Fuente: commit `5ae72ac3094a2712d8b9b75d11bbb928b6859fe6`; blob `af5f597bdbdf4c7632b6dc0df64a31eb30081262`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+| 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |
+````
+
+### Cambio 90 — Poner la presentación mantenida en la entrada pública de UC-21
+
+**Impacto Alto · riesgo Medio · esfuerzo Bajo · prioridad Siguiente. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: Desde la Issue real se llega inmediatamente a objetivos, Challenges, DDS, estudios y siguientes investigaciones; se conserva íntegro el envío original.
+
+Riesgo concreto: Edición externa de la entrada formal: no cambiar campos, sectores, título, estado o comentarios; conservar todos los enlaces de aec08fb5. Revalidar el cuerpo justo antes de incorporar.
+
+Coste de lectura/validación/mantenimiento: Un bloque de navegación visible, cotejo integral del cuerpo y lectura de vuelta; acceso o aplicación manual por el propietario.
+
+Dependencias: 83, 84, 85, 86, 87, 88, 89. Iván aprueba literalmente el bloque 90 y su destino Issue #21; revalidar y conservar el resto del cuerpo, y disponer de acceso del propietario. No publicar comentario ni cerrar la Issue por esta preparación.
+
+**Pasaje 1:** `FG-TIDA/use-cases` → `https://github.com/FG-TIDA/use-cases/issues/21`. Ubicación: Después de los tres enlaces de aec08fb5 y antes del formulario original. Fuente: Issue consultada, updated_at `2026-10-13T10:36:49Z`; SHA-256 del cuerpo `42a01df4e67c73a56c39544d6ce8a44dbbcb6d592f840b2ca5588ebf74122428`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+**[Read the case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md)** · **[Explore the complete package](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/README.md)** · **[Open the 20 annexes](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/README.md)**
+
+## UC-21: current research and reading route
+
+UC-21 investigates when locally valid controls remain sufficient for the receiving decision after aggregation, intermediation or material change. The case supplies its objectives and six failure families, called **Challenges** in the maintained reader guide. A DDS evaluation scenario pairs a Challenge with a specified technology/configuration and bounded conditions.
+
+**[Current UC-21 package](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md)** → **[Research objectives](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives)** → **[Challenges](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)** → **[DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md)** → **[Recorded studies and results](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#challenges-evaluation-scenarios-and-recorded-work)**.
+
+The [next investigations and evidence decisions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#next-investigations-and-evidence-decisions) connect the scoped S5 contribution, the CDA candidate and the optional UC-4 / UC-21 collaboration. Test design, independent execution/verification and specification selection have distinct responsibilities, as proposed in the [13 October discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6143678176).
+
+The three links above retain the submitted v0.9.3 snapshot; the maintained guide records subsequent research and navigation. Each result remains attached to its source question, edition, freeze and evidence.
+````
+

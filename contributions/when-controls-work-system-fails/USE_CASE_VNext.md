@@ -221,3 +221,37 @@ El README UC-21 añade al final acceso a todos los archivos de su paquete, los m
 La edición de la Issue pública #21 se mantiene separada: la revisión automática rechazó la nueva adición al cuerpo por exigir aprobación literal del texto externo y señalar el bloqueo previo403. La lectura de vuelta comprobó cuerpo, título y estado intactos. El navegador también falló al inicializar sus assets; no se intentó otro medio de escritura. El bloque exacto se publica en la VNext de README UC-21 para una decisión concreta. No hay PDF UC-21 en los árboles actuales de estos dos repositorios; no se fabrica ni sustituye uno como parte de esta migración.
 
 Comprobación final compartida:2.283rutas accesibles por los lectores y carpetas enlazadas;2.006destinos anteriores conservados en los cinco documentos intervenidos;13sustituciones inversas exactas, cero cambios fuera de alcance; README/ZIP históricos restaurados idénticos. El detalle permanece en EP VNext.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+El lector directo del caso debe encontrar la misma secuencia y condiciones que la raíz. Se releyeron §1.1, protocolos HC/HR/HS y los enlaces previos. Los contenidos científicos y las 37 condiciones no necesitan un cambio por esta mejora de acceso.
+
+### Cambio 87 — Dar el mismo recorrido al lector que entra directamente en USE_CASE
+
+**Impacto Alto · riesgo Bajo · esfuerzo Bajo · prioridad Primera. Estado: preparado, pendiente de GO; no aplicado.**
+
+Beneficio: El documento principal conecta sus objetivos con la guía de Challenges, DDS, trabajo registrado y siguientes decisiones, incluso si el lector evita el README.
+
+Riesgo concreto: Conservar todos los enlaces iniciales y secciones del caso; no cambiar hechos, hipótesis, gates ni instrucciones de ejecución.
+
+Coste de lectura/validación/mantenimiento: Una línea de recorrido; cotejar objetivos, cinco enlaces previos y anclas nuevas.
+
+Dependencias: 83, 86. Revalidar fuente y pares, recibir GO de Iván sobre estos textos y comprobar el diff y lectura de vuelta.
+
+**Pasaje 1:** `dakleyer/use-cases` → `contributions/when-controls-work-system-fails/USE_CASE.md`. Ubicación: Reading route anterior al primer apartado; se conserva la línea completa. Fuente: commit `0d32667ccce1dd3e568459a64a89e83987d92d4e`; blob `a59575314c714b2ffb024b9d33aa2bbf3b9d241f`. Viejo localizado una vez.
+
+**Texto antes — viejo literal completo del pasaje**
+
+````markdown
+**Reading route:** [Scenarios](#2-the-situation-and-six-scenarios) · [Prepare an experiment](#5-select-prepare-and-run-one-experiment) · [Acceptance gates](#6-six-quality-plans-visible-acceptance-criteria) · [Technologies](#7-results-existing-coverage-and-remaining-gap) · [Extensionality](#8-extensibility-and-extensionality)
+````
+
+**Texto después — propuesta completa**
+
+````markdown
+**Research route:** [Objectives](#11-research-objectives-and-evidence) → [Challenges](README.md#choose-a-challenge-and-its-evaluation-scenario) → [DDS method](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) → [Recorded studies and results](README.md#challenges-evaluation-scenarios-and-recorded-work) · [Next investigations](README.md#next-investigations-and-evidence-decisions)
+
+**Reading route:** [Scenarios](#2-the-situation-and-six-scenarios) · [Prepare an experiment](#5-select-prepare-and-run-one-experiment) · [Acceptance gates](#6-six-quality-plans-visible-acceptance-criteria) · [Technologies](#7-results-existing-coverage-and-remaining-gap) · [Extensionality](#8-extensibility-and-extensionality)
+````
+

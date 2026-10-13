@@ -103,3 +103,10 @@ Un revisor de FG-TIDA identifica que no se ha ejecutado un benchmark de fabrican
 Las propuestas EO se leen con la integración efectiva de USE_CASE§1.1 y README: cinco preguntas científicas, HC/HR/HS y las condiciones individualesH1–H6, R1 corregida antes deR2 y ambos resultadosS4. La tanda3 examinó el formulario completo y decidió que no hacía falta imponer EO ni una nueva ficha. Es la alternativa vigente que se publicó; las tablas/formulario iniciales quedan superados y no se aplican por duplicado. El objetivo y la conclusión siguen documentándose con el contrato existente de EvidenceE.6. Las tandas de navegación no cierran el ciclo científico del corpus.
 
 Contributions incorpora la tanda5 en `9fb9421711521decde6843b04914a143a1f04c35` y los26cambios anteriores en `00ea3174c10a7e7cad84905d5642aa74eba35b18`, incluyendo sucesores que conservan Requirements,UC-EA-03 ychecker congelados. Las VNext propietarias registran los cambios y retiran sus fichas aplicadas.
+
+
+## Cierre de entrada UC-21 — 13 octubre 2026
+
+Se cotejó SUBMISSION con el cuerpo actual de la Issue #21 y sus 36 comentarios. La presentación nueva 90 conserva el formulario completo, sus 37 requisitos y todas las casillas; usa un bloque inicial de navegación en lugar de reemplazar el envío. Las once casillas sectoriales del cuerpo y cuatro de la fuente siguen como una decisión separada; no se corrigen por inferencia.
+
+Los cinco objetivos ya tienen matriz y protocolos en USE_CASE§1.1 y README. Se reutilizan, sin reactivar la propuesta EO histórica ni repetir sus tablas. El [plan literal 90](README_VNext.md#cambio-90--poner-la-presentación-mantenida-en-la-entrada-pública-de-uc-21) es la alternativa vigente a la anterior adición al final. La publicación de esta nota no edita la Issue, no envía mensajes y no concede acceso externo.
