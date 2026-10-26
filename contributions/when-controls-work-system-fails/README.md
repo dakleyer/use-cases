@@ -94,11 +94,12 @@ The [submitted reading snapshot](https://github.com/dakleyer/use-cases/tree/aec0
 | `assets/` | Eleven scenario SVG figures plus three reading aids in SVG and PNG, referenced from the README and relevant annexes |
 | `fixtures/S5-AWS/` | Four machine-readable JSON design artifacts, also printed in full in [T08](annexes/technology/T08.md) |
 | [templates/RUN_RECORD.md](templates/RUN_RECORD.md) | Copyable record for claim selection, preregistration, gates and separate conclusions; not an additional technical annex |
-| [SHA256SUMS.txt](SHA256SUMS.txt) | Integrity hashes for every other file in this package |
+| [SHA256SUMS.txt](SHA256SUMS.txt) | Preserved integrity manifest for the original submitted snapshot; not the maintained tree |
+| [SHA256SUMS_2026-10-26.txt](SHA256SUMS_2026-10-26.txt) | Integrity manifest for every other file in this maintained package, including the historical manifest and preserved predecessors |
 
 ## Publish and maintain
 
-Unzip the package and upload this directory’s contents together, preserving names and relative paths. Opening this README is the entry point; all case and annex links are local. The ZIP itself need not be committed as the working source. For a later correction, edit the affected Markdown or asset and commit that change. Preserve version history; do not manually maintain a second combined copy. Regenerate SHA256SUMS.txt whenever package files change; the supplied hashes identify this draft snapshot.
+Unzip the package and upload this directory’s contents together, preserving names and relative paths. Opening this README is the entry point; all case and annex links are local. The ZIP itself need not be committed as the working source. For a later correction, preserve the untouched predecessor before editing the affected Markdown or asset. Keep the original SHA256SUMS.txt unchanged with its submitted snapshot. Generate a new, separately dated manifest for a maintained edition; each such manifest identifies its own exact package cut and excludes itself. Preserve version history and do not maintain a second combined source copy.
 
 To submit through the FG-TIDA issue form, copy the relevant text from SUBMISSION.md and replace its local file links with the actual published GitHub links after upload. A commit permalink can identify the exact submitted version. No destination URL is invented in this package.
 
@@ -149,3 +150,8 @@ Use the five research objectives above to select a question. The six case famili
 The package's 37 gates are local to these six plans: five use Q0–Q5 and S5 uses Q0–Q6. Use the [selected case plan](USE_CASE.md#6-six-quality-plans-visible-acceptance-criteria) with the [family-admission tests X1–X7](annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and its positive control. Select case acceptance, HC, HR, HS or an individual H1–H6 contrast through [claim selection](annexes/HYPOTHESES.md#13-claim-selection); record the choice separately from R0/R1/R2.
 
 For source reading, S3's retained submission redirects to maintained 00G; S6 is already an adapter to 00J. The 00H link above selects the v0.5 working successor, including both preservation and authority outcomes. Original package and frozen-study editions keep the versions they cite. The nine technology profiles describe twenty-seven comparison positions; an executed study is identified by its own registration and results.
+
+
+### Integrity of the maintained reader edition
+
+Use [the 26 October manifest](SHA256SUMS_2026-10-26.txt) to verify this maintained package. The original SHA256SUMS.txt remains an unchanged historical artifact for the linked submitted edition. Changes to README, USE_CASE, S3 and S6 and the later VNext records are identified by their Git history; they are not claimed to match the old package hashes. This maintenance correction updates integrity instructions and the shared submissions index only. Existing scientific claims, pending VNext proposals, frozen study inputs and execution statuses keep their own scope.
