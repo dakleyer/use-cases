@@ -78,7 +78,7 @@ The proposed receiver profile preserves review functions, source dependence, qua
 It also records whether useful additional evidence can be obtained, assessed and acted on before the response window closes.
 The evaluation compares native controls, a strengthened existing-standards composition and the proposed qualification profile, with compliant positive controls.
 Any demonstrated gap remains scoped to the tested requirements, configurations and evidence; failure of one implementation does not prove a universal standards absence.
-The scenario is hypothetical. Test designs and public-source analysis are available; no pilot results or submission are claimed.
+The scenario is hypothetical. Test designs and public-source analysis are available; no pilot results, acceptance or adoption are claimed.
 
 **Working definition — contextual reliance:** The bounded decision to depend on a contribution or review for a specified task, artifact version, context, consequence and validity period, based on evidence whose quality, coverage, independence and residual uncertainty are stated. Authorization and mandatory review conditions remain separate policy requirements; a strong outcome score cannot waive them.
 
